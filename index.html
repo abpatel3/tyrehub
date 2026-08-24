@@ -964,25 +964,27 @@
                     <!-- HSRP Indian Plate Styling Container -->
                     <div class="relative w-full mb-1.5">
                       <div
-                        class="w-full h-13 sm:h-14 bg-white border-2 border-slate-800 rounded-xl shadow-sm flex items-center overflow-hidden focus-within:border-brand-blue focus-within:ring-2 focus-within:ring-brand-blue/20 transition-all duration-200">
+                        class="w-full h-11 sm:h-12 bg-white border-2 border-brand-blue/80 rounded-xl shadow-md flex items-center overflow-hidden focus-within:border-brand-blue focus-within:shadow-lg transition-all duration-200">
 
-                        <!-- Left IND Emblem Strip -->
+                        <!-- Left IND Emblem Strip (Authentic Blue Strip with Chromium Hologram & Ashoka Chakra dot) -->
                         <div
-                          class="h-full px-3 bg-[#003399] text-white flex flex-col items-center justify-center flex-shrink-0 select-none border-r border-slate-800">
-                          <span class="text-[9px] leading-tight font-extrabold tracking-tighter">IND</span>
+                          class="h-full px-3.5 bg-gradient-to-b from-[#0038A8] to-[#002270] text-white flex flex-col items-center justify-center flex-shrink-0 select-none border-r-2 border-brand-blue/30 shadow-inner">
+                          <span class="text-[10px] leading-none font-black tracking-widest text-white drop-shadow-sm font-outfit">IND</span>
+                          <!-- HSRP Hologram Emblem -->
                           <div
-                            class="w-3.5 h-3.5 rounded-full border border-yellow-400/80 flex items-center justify-center my-0.5">
-                            <div class="w-1 h-1 rounded-full bg-yellow-400"></div>
+                            class="w-3.5 h-3.5 rounded-full bg-gradient-to-tr from-amber-400 via-yellow-300 to-amber-500 border border-yellow-200/90 flex items-center justify-center my-0.5 shadow-sm">
+                            <div class="w-1 h-1 rounded-full bg-blue-900"></div>
                           </div>
                         </div>
 
                         <!-- Plate Number Input -->
-                        <input type="text" id="reg-plate-input" placeholder="GJ 01 AB 1234" maxlength="13"
-                          class="w-full h-full bg-transparent text-brand-blue font-extrabold text-base sm:text-lg px-3.5 uppercase tracking-wider font-outfit outline-none placeholder-slate-300">
+                        <input type="text" id="reg-plate-input" placeholder="E.G. GJ 01 AB 1234" maxlength="13"
+                          class="w-full h-full bg-white text-brand-blue font-extrabold text-sm sm:text-base px-3.5 uppercase tracking-widest font-outfit outline-none placeholder:text-slate-400 placeholder:font-semibold">
                       </div>
 
-                      <p class="text-[10px] text-slate-500 font-medium mt-1">
-                        This is the same as your vehicle registration number.
+                      <p class="text-[10px] text-slate-500 font-medium mt-1.5 flex items-center gap-1">
+                        <i class="fa-solid fa-circle-check text-emerald-500 text-[10px]"></i>
+                        <span>Enter number as on your RC or license plate.</span>
                       </p>
 
                       <!-- Inline Realtime Validation Feedback -->
