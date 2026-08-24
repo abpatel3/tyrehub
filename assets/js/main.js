@@ -60,9 +60,21 @@ $(document).ready(function () {
     // Lock Header Navbar fixed to top on scroll
     if ($mainNav.length) {
       if (scrollPos > navInitialTop) {
-        $mainNav.addClass("fixed top-0 left-0 right-0 z-50 shadow-xl").removeClass("sticky");
+        $mainNav.css({
+          position: "fixed",
+          top: "0px",
+          left: "0px",
+          right: "0px",
+          "z-index": "50"
+        }).addClass("shadow-xl");
       } else {
-        $mainNav.removeClass("fixed top-0 left-0 right-0 z-50 shadow-xl").addClass("sticky");
+        $mainNav.css({
+          position: "",
+          top: "",
+          left: "",
+          right: "",
+          "z-index": ""
+        }).removeClass("shadow-xl");
       }
     }
   });
