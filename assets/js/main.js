@@ -207,10 +207,20 @@ $(document).ready(function () {
         {
           breakpoint: 480,
           settings: { slidesToShow: 2 },
-        },
-      ],
     });
   }
+
+  // Refresh AOS element scroll coordinates after Slick Carousels initialize
+  if (typeof AOS !== "undefined") {
+    AOS.refresh();
+  }
+
+  // Also refresh AOS on full window load to guarantee pixel-perfect offsets
+  $(window).on("load", function () {
+    if (typeof AOS !== "undefined") {
+      AOS.refresh();
+    }
+  });
 
   // 8. Interactive Tyre Finder Tab Switching
   $(".finder-tab-btn").on("click", function () {
