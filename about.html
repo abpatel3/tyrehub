@@ -316,7 +316,49 @@
         <div class="mt-6 flex flex-col gap-2 text-sm font-semibold text-slate-200">
           <a href="index.html#car-tyres" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-dharmachakra text-brand-yellow w-5"></i> Buy Tyre</a>
-          <a href="about.html" class="p-2.5 rounded-lg bg-white/10 text-brand-yellow flex items-center gap-3"><i
+          <a href="index.html#alignment" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+              class="fa-solid fa-arrows-to-dot text-brand-yellow w-5"></i> Alignment &amp; Balancing</a>
+          <a href="index.html#car-battery" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+              class="fa-solid fa-car-battery text-brand-yellow w-5"></i> Car Battery Replacement</a>
+          <!-- Car Services Expandable Sub-Menu -->
+          <div class="space-y-1">
+            <button type="button" id="mobile-services-toggle"
+              class="w-full text-left p-2.5 rounded-lg hover:bg-white/10 flex items-center justify-between gap-3">
+              <span class="flex items-center gap-3"><i class="fa-solid fa-wrench text-brand-yellow w-5"></i> Car
+                Services</span>
+              <i id="mobile-services-chevron"
+                class="fa-solid fa-chevron-down text-xs text-slate-400 transition-transform duration-200"></i>
+            </button>
+
+            <!-- Sub-Services List (Accordion) -->
+            <div id="mobile-services-sub-menu" class="hidden pl-8 pr-2 py-1 space-y-1 text-xs text-slate-300">
+              <a href="#" onclick="openBookingModal('Free Car Tyre Inspection'); $('#close-mobile-menu').click();"
+                class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
+                <i class="fa-solid fa-magnifying-glass text-brand-yellow text-xs"></i>
+                <span>Free Car Tyre Inspection</span>
+              </a>
+              <a href="#" onclick="openBookingModal('Car Wash'); $('#close-mobile-menu').click();"
+                class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
+                <i class="fa-solid fa-shower text-blue-400 text-xs"></i>
+                <span>Car Wash</span>
+              </a>
+              <a href="#" onclick="openBookingModal('Car Flat Tyre / Jump Start'); $('#close-mobile-menu').click();"
+                class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
+                <i class="fa-solid fa-bolt text-amber-400 text-xs"></i>
+                <span>Car Flat Tyre / Jump Start</span>
+              </a>
+              <a href="#" onclick="openBookingModal('Towing Services'); $('#close-mobile-menu').click();"
+                class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
+                <i class="fa-solid fa-truck-pickup text-red-400 text-xs"></i>
+                <span>Towing Services</span>
+              </a>
+            </div>
+          </div>
+          <a href="index.html#franchise" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+              class="fa-solid fa-handshake text-brand-yellow w-5"></i> Franchise Opportunity</a>
+          <a href="index.html#tyre-brands-section" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+              class="fa-solid fa-store text-brand-yellow w-5"></i> Our Stores</a>
+          <a href="about.html" class="p-2.5 rounded-lg bg-white/10 text-brand-yellow font-bold flex items-center gap-3"><i
               class="fa-solid fa-circle-info text-brand-yellow w-5"></i> About Us</a>
           <a href="#contact" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-phone text-brand-yellow w-5"></i> Contact Us</a>
