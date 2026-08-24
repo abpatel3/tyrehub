@@ -12,9 +12,24 @@
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛞</text></svg>">
 
-  <!-- Google Fonts: Poppins & Outfit -->
+  <!-- Preconnect to CDNs & External Resources for Ultra-Fast Loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <!-- Instant Element Visibility Protection (0ms Load Delay) -->
+  <style>
+    /* Ensure content is 100% visible instantly on initial page load, even before AOS/scripts load */
+    [data-aos] {
+      opacity: 1 !important;
+      transform: none !important;
+      visibility: visible !important;
+    }
+  </style>
+
+  <!-- Google Fonts: Poppins & Outfit -->
   <link
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap"
     rel="stylesheet">
