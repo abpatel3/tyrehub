@@ -217,27 +217,12 @@ $(document).ready(function () {
     AOS.refresh();
   }
 
-  // Speedometer Preloader Dismissal
-  const hidePreloader = function () {
-    const $preloader = $("#site-preloader");
-    if ($preloader.length) {
-      $preloader.addClass("opacity-0 pointer-events-none");
-      setTimeout(function () {
-        $preloader.remove();
-      }, 500);
-    }
-  };
-
-  // Dismiss Preloader on window load and refresh AOS
+  // Also refresh AOS on full window load to guarantee pixel-perfect offsets
   $(window).on("load", function () {
-    hidePreloader();
     if (typeof AOS !== "undefined") {
       AOS.refresh();
     }
   });
-
-  // Fallback safety dismissal after 2 seconds
-  setTimeout(hidePreloader, 2000);
 
   // 8. Interactive Tyre Finder Tab Switching
   $(".finder-tab-btn").on("click", function () {
