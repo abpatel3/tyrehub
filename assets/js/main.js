@@ -43,39 +43,12 @@ $(document).ready(function () {
     $("#clear-vehicle-input").addClass("hidden");
   });
 
-  // 1. Scroll Handler for Sticky Navbar & Back to Top Button
-  const $mainNav = $("#main-nav-bar");
-  const navInitialTop = $mainNav.length ? $mainNav.offset().top : 120;
-
+  // 1. Scroll Handler for Back to Top Button
   $(window).on("scroll", function () {
-    const scrollPos = $(this).scrollTop();
-
-    // Back to Top Button
-    if (scrollPos > 300) {
+    if ($(this).scrollTop() > 300) {
       $("#back-to-top").fadeIn(300);
     } else {
       $("#back-to-top").fadeOut(300);
-    }
-
-    // Lock Header Navbar fixed to top on scroll
-    if ($mainNav.length) {
-      if (scrollPos > navInitialTop) {
-        $mainNav.css({
-          position: "fixed",
-          top: "0px",
-          left: "0px",
-          right: "0px",
-          "z-index": "50"
-        }).addClass("shadow-xl");
-      } else {
-        $mainNav.css({
-          position: "",
-          top: "",
-          left: "",
-          right: "",
-          "z-index": ""
-        }).removeClass("shadow-xl");
-      }
     }
   });
 
