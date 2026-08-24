@@ -1,0 +1,357 @@
+{
+  "categories": {
+    "4w": {
+      "name": "4 Wheeler (Car / SUV)",
+      "illustration": "assets/image/vehicle-select-guide.webp",
+      "brands": [
+        {
+          "id": "maruti-suzuki",
+          "name": "Maruti Suzuki",
+          "models": [
+            {
+              "name": "Swift",
+              "variants": [
+                { "name": "LXi / VXi (165/80 R14)", "size": "165/80 R14" },
+                { "name": "ZXi / ZXi+ (185/65 R15)", "size": "185/65 R15" }
+              ]
+            },
+            {
+              "name": "Baleno",
+              "variants": [
+                { "name": "Sigma / Delta (185/65 R15)", "size": "185/65 R15" },
+                { "name": "Zeta / Alpha (195/55 R16)", "size": "195/55 R16" }
+              ]
+            },
+            {
+              "name": "Brezza",
+              "variants": [
+                { "name": "LXi / VXi / ZXi (215/60 R16)", "size": "215/60 R16" }
+              ]
+            },
+            {
+              "name": "Wagon R",
+              "variants": [
+                { "name": "LXi 1.0 (155/80 R13)", "size": "155/80 R13" },
+                { "name": "VXi / ZXi 1.2 (165/70 R14)", "size": "165/70 R14" }
+              ]
+            },
+            {
+              "name": "Dzire",
+              "variants": [
+                { "name": "LXi / VXi / ZXi (185/65 R15)", "size": "185/65 R15" }
+              ]
+            },
+            {
+              "name": "Ertiga",
+              "variants": [
+                { "name": "LXi / VXi / ZXi (185/65 R15)", "size": "185/65 R15" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hyundai",
+          "name": "Hyundai",
+          "models": [
+            {
+              "name": "Creta",
+              "variants": [
+                { "name": "E / EX / S (205/65 R16)", "size": "205/65 R16" },
+                { "name": "SX / SX(O) (215/60 R17)", "size": "215/60 R17" }
+              ]
+            },
+            {
+              "name": "i20",
+              "variants": [
+                { "name": "Magna / Sportz (185/65 R15)", "size": "185/65 R15" },
+                { "name": "Asta / Asta(O) (195/55 R16)", "size": "195/55 R16" }
+              ]
+            },
+            {
+              "name": "Venue",
+              "variants": [
+                { "name": "E / S / S+ (195/65 R15)", "size": "195/65 R15" },
+                { "name": "SX / SX(O) (215/60 R16)", "size": "215/60 R16" }
+              ]
+            },
+            {
+              "name": "Verna",
+              "variants": [
+                { "name": "EX / S (185/65 R15)", "size": "185/65 R15" },
+                { "name": "SX / SX(O) (205/55 R16)", "size": "205/55 R16" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tata",
+          "name": "Tata Motors",
+          "models": [
+            {
+              "name": "Nexon",
+              "variants": [
+                { "name": "XE / XM / XZ / Fearless (215/60 R16)", "size": "215/60 R16" }
+              ]
+            },
+            {
+              "name": "Punch",
+              "variants": [
+                { "name": "Pure / Adventure (185/70 R15)", "size": "185/70 R15" },
+                { "name": "Accomplished / Creative (195/60 R16)", "size": "195/60 R16" }
+              ]
+            },
+            {
+              "name": "Harrier",
+              "variants": [
+                { "name": "XE / XM (235/65 R17)", "size": "235/65 R17" },
+                { "name": "XZ / XZ+ (235/60 R18)", "size": "235/60 R18" }
+              ]
+            },
+            {
+              "name": "Tiago",
+              "variants": [
+                { "name": "XE / XT (155/80 R13)", "size": "155/80 R13" },
+                { "name": "XZ / XZ+ (175/65 R14)", "size": "175/65 R14" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honda",
+          "name": "Honda",
+          "models": [
+            {
+              "name": "City",
+              "variants": [
+                { "name": "SV / V (185/60 R15)", "size": "185/60 R15" },
+                { "name": "VX / ZX (185/55 R16)", "size": "185/55 R16" }
+              ]
+            },
+            {
+              "name": "Amaze",
+              "variants": [
+                { "name": "E / S / VX (175/65 R14)", "size": "175/65 R14" }
+              ]
+            },
+            {
+              "name": "Elevate",
+              "variants": [
+                { "name": "SV / V (215/60 R16)", "size": "215/60 R16" },
+                { "name": "VX / ZX (215/55 R17)", "size": "215/55 R17" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mahindra",
+          "name": "Mahindra",
+          "models": [
+            {
+              "name": "Thar",
+              "variants": [
+                { "name": "AX / LX Hard Top/Soft Top (255/65 R18)", "size": "255/65 R18" }
+              ]
+            },
+            {
+              "name": "XUV700",
+              "variants": [
+                { "name": "MX / AX3 (235/65 R17)", "size": "235/65 R17" },
+                { "name": "AX5 / AX7 (235/60 R18)", "size": "235/60 R18" }
+              ]
+            },
+            {
+              "name": "Scorpio-N",
+              "variants": [
+                { "name": "Z2 / Z4 / Z6 (245/70 R17)", "size": "245/70 R17" },
+                { "name": "Z8 / Z8L (255/60 R18)", "size": "255/60 R18" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "toyota",
+          "name": "Toyota",
+          "models": [
+            {
+              "name": "Fortuner",
+              "variants": [
+                { "name": "4x2 / 4x4 (265/65 R17)", "size": "265/65 R17" },
+                { "name": "Legender / GR-S (265/60 R18)", "size": "265/60 R18" }
+              ]
+            },
+            {
+              "name": "Innova Crysta",
+              "variants": [
+                { "name": "GX / VX (205/65 R16)", "size": "205/65 R16" },
+                { "name": "ZX (215/55 R17)", "size": "215/55 R17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "2w": {
+      "name": "2 Wheeler (Bike / Scooter)",
+      "illustration": "assets/image/vehicle-select-guide.webp",
+      "brands": [
+        {
+          "id": "hero-motocorp",
+          "name": "Hero MotoCorp",
+          "models": [
+            {
+              "name": "Splendor Plus",
+              "variants": [
+                { "name": "Standard (80/100-18)", "size": "80/100-18" }
+              ]
+            },
+            {
+              "name": "HF Deluxe",
+              "variants": [
+                { "name": "Standard (2.75-18)", "size": "2.75-18" }
+              ]
+            },
+            {
+              "name": "Xpulse 200 4V",
+              "variants": [
+                { "name": "Front (90/90-21) / Rear (120/80-18)", "size": "120/80-18" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "honda-2w",
+          "name": "Honda (2W)",
+          "models": [
+            {
+              "name": "Activa 6G / 125",
+              "variants": [
+                { "name": "Front (90/90-12) / Rear (90/100-10)", "size": "90/90-12" }
+              ]
+            },
+            {
+              "name": "Shine 125",
+              "variants": [
+                { "name": "Standard (80/100-18)", "size": "80/100-18" }
+              ]
+            },
+            {
+              "name": "Unicorn 160",
+              "variants": [
+                { "name": "Front (80/100-18) / Rear (100/90-18)", "size": "100/90-18" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tvs-motor",
+          "name": "TVS Motor",
+          "models": [
+            {
+              "name": "Jupiter 110 / 125",
+              "variants": [
+                { "name": "Standard (90/90-12)", "size": "90/90-12" }
+              ]
+            },
+            {
+              "name": "Apache RTR 160 / 200",
+              "variants": [
+                { "name": "Rear (110/80-17 / 130/70-17)", "size": "130/70-17" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bajaj-auto",
+          "name": "Bajaj Auto",
+          "models": [
+            {
+              "name": "Pulsar 150 / 220F",
+              "variants": [
+                { "name": "Rear (100/90-17 / 120/80-17)", "size": "120/80-17" }
+              ]
+            },
+            {
+              "name": "Pulsar NS200",
+              "variants": [
+                { "name": "Rear (130/70-17)", "size": "130/70-17" }
+              ]
+            },
+            {
+              "name": "Chetak EV",
+              "variants": [
+                { "name": "Standard (90/90-12)", "size": "90/90-12" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "royal-enfield",
+          "name": "Royal Enfield",
+          "models": [
+            {
+              "name": "Classic 350",
+              "variants": [
+                { "name": "Front (100/90-19) / Rear (120/80-18)", "size": "120/80-18" }
+              ]
+            },
+            {
+              "name": "Bullet 350",
+              "variants": [
+                { "name": "Front (100/90-19) / Rear (120/80-18)", "size": "120/80-18" }
+              ]
+            },
+            {
+              "name": "Hunter 350",
+              "variants": [
+                { "name": "Front (110/70-17) / Rear (140/70-17)", "size": "140/70-17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3w": {
+      "name": "3 Wheeler (Auto Rickshaw)",
+      "illustration": "assets/image/vehicle-select-guide.webp",
+      "brands": [
+        {
+          "id": "bajaj-3w",
+          "name": "Bajaj Commercial (3W)",
+          "models": [
+            {
+              "name": "RE Compact / Maxima C",
+              "variants": [
+                { "name": "Standard (4.00-8)", "size": "4.00-8" },
+                { "name": "Maxima Cargo (4.50-10)", "size": "4.50-10" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "piaggio-3w",
+          "name": "Piaggio Ape",
+          "models": [
+            {
+              "name": "Ape Xtra LDX / City",
+              "variants": [
+                { "name": "Standard (4.50-10)", "size": "4.50-10" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mahindra-3w",
+          "name": "Mahindra 3W",
+          "models": [
+            {
+              "name": "Treo / Alfa Passenger",
+              "variants": [
+                { "name": "Standard (4.50-10)", "size": "4.50-10" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

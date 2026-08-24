@@ -1,0 +1,19 @@
+{
+  "name": "tyrehub",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --watch",
+    "dev": "php -S localhost:8080"
+  },
+  "keywords": [],
+  "author": "TyreHub",
+  "license": "ISC",
+  "description": "TyreHub - Modern E-Commerce Automotive Platform",
+  "devDependencies": {
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap");
+
+/* TyreHub Design System Tokens */
+:root {
+  --th-yellow-primary: #ffd800;
+  --th-yellow-hover: #e6c200;
+  --th-yellow-light: #fffbeb;
+
+  --th-blue-primary: #2f3672;
+  --th-blue-hover: #242a5a;
+  --th-blue-dark: #2f3672;
+  --th-blue-light: #eef2ff;
+
+  --th-text-main: #0f172a;
+  --th-text-slate: #1e293b;
+  --th-text-muted: #64748b;
+  --th-surface-base: #f8fafc;
+  --th-surface-card: #ffffff;
+  --th-border-default: #e2e8f0;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-pill: 9999px;
+
+  --transition-fast: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--th-text-main);
+  background-color: var(--th-surface-base);
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Brand Buttons */
+.btn-primary {
+  background-color: var(--th-yellow-primary);
+  color: var(--th-blue-primary);
+  font-weight: 700;
+  border-radius: var(--radius-xl);
+  padding: 0.75rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 14px rgba(255, 216, 0, 0.35);
+  border: 2px solid var(--th-yellow-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--th-yellow-hover);
+  border-color: var(--th-yellow-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(255, 216, 0, 0.5);
+}
+
+.btn-secondary {
+  background-color: var(--th-blue-primary);
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: var(--radius-xl);
+  padding: 0.75rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 14px rgba(47, 54, 114, 0.25);
+  border: 2px solid var(--th-blue-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--th-blue-hover);
+  border-color: var(--th-blue-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(47, 54, 114, 0.4);
+}
+
+.btn-outline-yellow {
+  background-color: transparent;
+  color: var(--th-yellow-primary);
+  font-weight: 700;
+  border-radius: var(--radius-xl);
+  padding: 0.625rem 1.25rem;
+  border: 2px solid var(--th-yellow-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: all var(--transition-fast);
+}
+
+.btn-outline-yellow:hover {
+  background-color: var(--th-yellow-primary);
+  color: var(--th-blue-primary);
+  transform: translateY(-2px);
+}
+
+/* Filter Tab Active State */
+.filter-tab.active {
+  background-color: var(--th-blue-primary);
+  color: var(--th-yellow-primary);
+  border-bottom: 3px solid var(--th-yellow-primary);
+}
+
+/* Sticky Header */
+.header-scrolled {
+  background: var(--th-blue-dark) !important;
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(255, 216, 0, 0.2);
+}
