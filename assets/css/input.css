@@ -634,3 +634,27 @@ select option:checked {
     font-size: 16px !important;
   }
 }
+
+/* Speedometer Gauge Preloader Needle Animation */
+.speedo-needle-wrap {
+  transform-origin: bottom center;
+  animation: speedo-sweep 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite alternate;
+}
+
+@keyframes speedo-sweep {
+  0% {
+    transform: rotate(-125deg);
+  }
+  25% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(35deg);
+  }
+  75% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(120deg);
+  }
+}
