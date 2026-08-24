@@ -9,11 +9,13 @@ $(document).ready(function () {
   // 0. Initialize AOS (Animate On Scroll) & Select2 Dropdowns
   if (typeof AOS !== "undefined") {
     AOS.init({
-      duration: 500,
-      easing: "ease-out-cubic",
+      duration: 400,
+      easing: "ease-out-quad",
       once: true,
-      offset: 40,
+      offset: 20,
       delay: 0,
+      startEvent: "DOMContentLoaded",
+      disableMutationObserver: false,
     });
   }
 
