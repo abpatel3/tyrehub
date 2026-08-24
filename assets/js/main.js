@@ -43,12 +43,27 @@ $(document).ready(function () {
     $("#clear-vehicle-input").addClass("hidden");
   });
 
-  // 1. Scroll Handler for Back to Top Button
+  // 1. Scroll Handler for Sticky Navbar & Back to Top Button
+  const $mainNav = $("#main-nav-bar");
+  const navInitialTop = $mainNav.length ? $mainNav.offset().top : 120;
+
   $(window).on("scroll", function () {
-    if ($(this).scrollTop() > 300) {
+    const scrollPos = $(this).scrollTop();
+
+    // Back to Top Button
+    if (scrollPos > 300) {
       $("#back-to-top").fadeIn(300);
     } else {
       $("#back-to-top").fadeOut(300);
+    }
+
+    // Lock Header Navbar fixed to top on scroll
+    if ($mainNav.length) {
+      if (scrollPos > navInitialTop) {
+        $mainNav.addClass("fixed top-0 left-0 right-0 z-50 shadow-xl").removeClass("sticky");
+      } else {
+        $mainNav.removeClass("fixed top-0 left-0 right-0 z-50 shadow-xl").addClass("sticky");
+      }
     }
   });
 
