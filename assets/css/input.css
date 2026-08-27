@@ -651,3 +651,139 @@ select option:checked {
     font-size: 16px !important;
   }
 }
+
+/* ==========================================================================
+   DYNAMIC BLOG CONTENT TYPOGRAPHY (.blog-content-body)
+   Supports standard CMS HTML tags: h1-h6, p, a, strong, b, ul, ol, li, blockquote, img, table
+   ========================================================================== */
+.blog-content-body > *:first-child,
+.blog-content-body > h1:first-child,
+.blog-content-body > h2:first-child,
+.blog-content-body > h3:first-child,
+.blog-content-body > h4:first-child,
+.blog-content-body > h5:first-child,
+.blog-content-body > h6:first-child,
+.blog-content-body > p:first-child,
+.blog-content-body > img:first-child,
+.blog-content-body > blockquote:first-child,
+.blog-content-body > ul:first-child,
+.blog-content-body > ol:first-child {
+  margin-top: 0 !important;
+}
+
+.blog-content-body h1,
+.blog-content-body h2,
+.blog-content-body h3,
+.blog-content-body h4,
+.blog-content-body h5,
+.blog-content-body h6 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  color: #0f172a;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.blog-content-body h1 {
+  font-size: 1.875rem;
+}
+.blog-content-body h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+.blog-content-body h3 {
+  font-size: 1.25rem;
+}
+.blog-content-body h4 {
+  font-size: 1.125rem;
+}
+.blog-content-body h5 {
+  font-size: 1rem;
+}
+.blog-content-body h6 {
+  font-size: 0.875rem;
+}
+
+.blog-content-body p {
+  color: #334155;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.blog-content-body a {
+  color: #2f3672;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.blog-content-body a:hover {
+  color: #ffd800;
+}
+
+.blog-content-body strong,
+.blog-content-body b {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.blog-content-body ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #334155;
+}
+
+.blog-content-body ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+  color: #334155;
+}
+
+.blog-content-body li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.blog-content-body blockquote {
+  border-left: 4px solid #ffd800;
+  background-color: #f8fafc;
+  padding: 1rem 1.25rem;
+  border-radius: 0 1rem 1rem 0;
+  margin: 1.5rem 0;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.blog-content-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+  border: 1px solid #e2e8f0;
+}
+
+.blog-content-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+.blog-content-body th,
+.blog-content-body td {
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.blog-content-body th {
+  background-color: #f1f5f9;
+  font-weight: 700;
+  color: #0f172a;
+}
