@@ -113,7 +113,32 @@ $(document).ready(function () {
 
   // 4. Why Choose TyreHub Slider
   if ($("#why-choose-slider").length) {
-    $("#why-choose-slider").slick({
+    var $whyChoose = $("#why-choose-slider");
+
+    function fixDotAriaLabels(slick) {
+      if (slick && slick.$dots) {
+        var total = slick.slideCount || 4;
+        slick.$dots.find("li").each(function (index) {
+          $(this)
+            .find("button")
+            .attr("aria-label", (index + 1) + " of " + total);
+        });
+      }
+    }
+
+    $whyChoose.on("init reInit breakpoint afterChange setPosition", function (event, slick) {
+      fixDotAriaLabels(slick);
+    });
+
+    $whyChoose.on("click", ".slick-dots button", function () {
+      var $btn = $(this);
+      setTimeout(function () {
+        var slick = $whyChoose.slick("getSlick");
+        fixDotAriaLabels(slick);
+      }, 50);
+    });
+
+    $whyChoose.slick({
       dots: true,
       infinite: true,
       speed: 500,
@@ -122,6 +147,17 @@ $(document).ready(function () {
       autoplay: true,
       autoplaySpeed: 4000,
       arrows: false,
+      customPaging: function (slider, i) {
+        return (
+          '<button type="button" role="tab" aria-label="' +
+          (i + 1) +
+          " of " +
+          slider.slideCount +
+          '">' +
+          (i + 1) +
+          "</button>"
+        );
+      },
       responsive: [
         {
           breakpoint: 1024,
@@ -143,8 +179,18 @@ $(document).ready(function () {
 
   // 5. Testimonials Slider
   if ($("#testimonials-slider").length) {
-    $("#testimonials-slider").slick({
-      dots: true,
+    var $testiSlider = $("#testimonials-slider");
+    $testiSlider.on("init afterChange", function (event, slick, currentSlide) {
+      var i = currentSlide || 0;
+      var isInfinite = slick.options.infinite;
+      if (!isInfinite) {
+        $("#testimonial-prev").toggleClass("opacity-40 cursor-not-allowed", i === 0);
+        $("#testimonial-next").toggleClass("opacity-40 cursor-not-allowed", i === slick.slideCount - 1);
+      }
+    });
+
+    $testiSlider.slick({
+      dots: false,
       infinite: true,
       speed: 600,
       fade: true,

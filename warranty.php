@@ -250,14 +250,14 @@ include 'includes/header.php';
     <!-- Support Callout Box -->
     <div class="bg-brand-blueDark text-white p-8 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-6" data-aos="fade-up" data-aos-duration="600">
       <div class="space-y-1 text-center md:text-left">
-        <h3 class="text-xl font-bold font-outfit">Need help with your warranty claim?</h3>
-        <p class="text-slate-300 text-xs sm:text-sm">
+        <h3 class="text-xl font-bold font-outfit text-white">Need help with your warranty claim?</h3>
+        <p class="text-slate-200 text-xs sm:text-sm font-medium">
           Our TyreHub customer support team is always ready to assist you.
         </p>
       </div>
       <div class="flex items-center gap-3 shrink-0">
         <a href="tel:<?php echo str_replace('-', '', TOLL_FREE_NUMBER); ?>" class="btn-primary py-3 px-6 text-xs font-bold">
-          <i class="fa-solid fa-phone mr-1.5"></i> Call <?php echo TOLL_FREE_NUMBER; ?>
+          <i class="fa-solid fa-phone mr-1.5" aria-hidden="true"></i> Call <?php echo TOLL_FREE_NUMBER; ?>
         </a>
       </div>
     </div>

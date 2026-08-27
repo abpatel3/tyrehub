@@ -7,10 +7,12 @@
 
         <!-- Col 1: About TyreHub (lg:col-span-4) -->
         <div class="lg:col-span-4 space-y-4">
-          <img src="assets/image/TYREHUBLOGO.svg" alt="<?php echo SITE_NAME; ?>" class="h-12 w-auto">
+          <div class="h-12 flex items-center">
+            <img src="assets/image/TYREHUBLOGO.svg" alt="<?php echo SITE_NAME; ?>" class="h-10 w-auto">
+          </div>
 
           <h3
-            class="text-base font-bold text-white pt-2 uppercase tracking-wide border-b border-brand-yellow/30 pb-1.5 inline-block">
+            class="text-base font-bold text-white uppercase tracking-wide border-b border-brand-yellow/30 pb-1.5 inline-block">
             About Tyrehub</h3>
           <p class="text-sm text-slate-200 leading-relaxed font-normal">
             TyreHub is a young and influential online hub for low cost tyres and offers installation services in
@@ -20,55 +22,55 @@
 
           <div class="flex items-center gap-3 pt-2">
             <a href="#"
-              class="w-9 h-9 rounded-full bg-white/15 text-white hover:bg-brand-yellow hover:text-brand-blue flex items-center justify-center transition shadow-sm"
-              title="Facebook"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+              class="w-10 h-10 rounded-full bg-brand-yellow text-slate-950 hover:bg-white hover:text-brand-blue flex items-center justify-center transition shadow-md font-bold"
+              title="Facebook"><i class="fa-brands fa-facebook-f text-base" aria-hidden="true"></i></a>
             <a href="#"
-              class="w-9 h-9 rounded-full bg-white/15 text-white hover:bg-brand-yellow hover:text-brand-blue flex items-center justify-center transition shadow-sm"
-              title="Twitter"><i class="fa-brands fa-x-twitter text-sm"></i></a>
+              class="w-10 h-10 rounded-full bg-brand-yellow text-slate-950 hover:bg-white hover:text-brand-blue flex items-center justify-center transition shadow-md font-bold"
+              title="Twitter"><i class="fa-brands fa-x-twitter text-base" aria-hidden="true"></i></a>
             <a href="#"
-              class="w-9 h-9 rounded-full bg-white/15 text-white hover:bg-brand-yellow hover:text-brand-blue flex items-center justify-center transition shadow-sm"
-              title="Instagram"><i class="fa-brands fa-instagram text-sm"></i></a>
+              class="w-10 h-10 rounded-full bg-brand-yellow text-slate-950 hover:bg-white hover:text-brand-blue flex items-center justify-center transition shadow-md font-bold"
+              title="Instagram"><i class="fa-brands fa-instagram text-base" aria-hidden="true"></i></a>
             <a href="#"
-              class="w-9 h-9 rounded-full bg-white/15 text-white hover:bg-brand-yellow hover:text-brand-blue flex items-center justify-center transition shadow-sm"
-              title="LinkedIn"><i class="fa-brands fa-linkedin-in text-sm"></i></a>
+              class="w-10 h-10 rounded-full bg-brand-yellow text-slate-950 hover:bg-white hover:text-brand-blue flex items-center justify-center transition shadow-md font-bold"
+              title="LinkedIn"><i class="fa-brands fa-linkedin-in text-base" aria-hidden="true"></i></a>
           </div>
         </div>
 
         <!-- Col 2: Quick Links (lg:col-span-4) -->
         <div class="lg:col-span-4 space-y-4">
+          <div class="h-12 hidden lg:block"></div>
           <h3
             class="text-base font-bold text-white uppercase tracking-wide border-b border-brand-yellow/30 pb-1.5 inline-block">
             Quick Links</h3>
-          <div class="grid grid-cols-2 gap-2.5 text-sm text-slate-200 font-medium">
+          <div class="grid grid-cols-2 gap-x-6 gap-y-3 text-sm text-slate-200 font-medium">
             <a href="index.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Home</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Home</a>
             <a href="about.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> About Us</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> About Us</a>
             <a href="#login" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Login</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Login</a>
             <a href="#register" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Register</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Register</a>
             <a href="warranty.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Guarantee Warranty</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Guarantee Warranty</a>
             <a href="return-policy.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Return/Refund Policy</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Return/Refund Policy</a>
             <a href="contact.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Contact Us</a>
-            <a href="franchise.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Franchise Opportunity</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Contact Us</a>
             <a href="blog.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Blog</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Blog</a>
             <a href="terms.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Terms &amp; Conditions</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Terms &amp; Conditions</a>
             <a href="privacy.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> Privacy Policy</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Privacy Policy</a>
             <a href="faq.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
-                class="fa-solid fa-angle-right text-xs text-brand-yellow"></i> FAQ</a>
+                class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> FAQ</a>
           </div>
         </div>
 
         <!-- Col 3: Contact Us & Payment Badges (lg:col-span-4) -->
         <div class="lg:col-span-4 space-y-4">
+          <div class="h-12 hidden lg:block"></div>
           <h3
             class="text-base font-bold text-white uppercase tracking-wide border-b border-brand-yellow/30 pb-1.5 inline-block">
             Contact Us</h3>
@@ -107,12 +109,12 @@
               <i class="fa-solid fa-lock text-emerald-400"></i> 256-Bit SSL Secure Connection
             </div>
 
-            <div class="flex flex-wrap items-center gap-2">
-              <span class="px-3 py-1 rounded bg-white text-slate-950 font-bold text-xs shadow-sm">RuPay</span>
-              <span class="px-3 py-1 rounded bg-white text-slate-950 font-bold text-xs shadow-sm">BHIM UPI</span>
-              <span class="px-3 py-1 rounded bg-white text-blue-900 font-bold text-xs shadow-sm">Paytm</span>
-              <span class="px-3 py-1 rounded bg-white text-blue-700 font-bold text-xs shadow-sm">VISA</span>
-              <span class="px-3 py-1 rounded bg-white text-red-600 font-bold text-xs shadow-sm">Mastercard</span>
+            <div class="flex flex-wrap items-center gap-1.5">
+              <span class="px-2.5 py-1 rounded bg-white text-slate-950 font-bold text-xs shadow-sm">RuPay</span>
+              <span class="px-2.5 py-1 rounded bg-white text-slate-950 font-bold text-xs shadow-sm">BHIM UPI</span>
+              <span class="px-2.5 py-1 rounded bg-white text-blue-900 font-bold text-xs shadow-sm">Paytm</span>
+              <span class="px-2.5 py-1 rounded bg-white text-blue-700 font-bold text-xs shadow-sm">VISA</span>
+              <span class="px-2.5 py-1 rounded bg-white text-red-600 font-bold text-xs shadow-sm">Mastercard</span>
             </div>
           </div>
 

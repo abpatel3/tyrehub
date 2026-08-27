@@ -60,18 +60,16 @@
 
           <!-- 2. Yellow Pass Registration -->
           <a href="#"
-            class="flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-yellow/10 border border-brand-yellow/40 hover:bg-brand-yellow hover:border-brand-yellow group transition">
-            <i class="fa-solid fa-star text-brand-yellowHover group-hover:text-slate-900 text-sm transition"></i>
-            <span
-              class="text-[12px] font-bold text-brand-blue group-hover:text-slate-900 transition whitespace-nowrap">Yellow
-              Pass</span>
+            class="btn-outline-yellow btn-sm">
+            <i class="fa-solid fa-star text-sm"></i>
+            <span>Yellow Pass</span>
           </a>
 
           <!-- 3. Track Your Order -->
           <a href="#"
-            class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-50 border border-slate-200 hover:bg-slate-100 hover:border-slate-300 transition">
-            <i class="fa-solid fa-location-arrow text-brand-blue text-sm"></i>
-            <span class="text-[12px] font-bold text-slate-700 whitespace-nowrap">Track Order</span>
+            class="btn-outline-blue btn-sm">
+            <i class="fa-solid fa-location-arrow text-sm"></i>
+            <span>Track Order</span>
           </a>
 
           <!-- Divider -->
@@ -79,18 +77,16 @@
 
           <!-- 4. Create Account -->
           <a href="#"
-            class="flex items-center gap-1.5 px-4 py-2 rounded-xl border border-brand-blue hover:bg-brand-blue group transition">
-            <i class="fa-regular fa-user text-brand-blue group-hover:text-white text-sm transition"></i>
-            <span
-              class="text-[12px] font-bold text-brand-blue group-hover:text-white transition whitespace-nowrap">Create
-              Account</span>
+            class="btn-outline-blue btn-sm">
+            <i class="fa-regular fa-user text-sm"></i>
+            <span>Create Account</span>
           </a>
 
           <!-- 5. Sign In -->
           <a href="#"
-            class="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-brand-blue hover:bg-brand-blueDark transition shadow-sm">
-            <i class="fa-solid fa-arrow-right-to-bracket text-white text-sm"></i>
-            <span class="text-[12px] font-bold text-white whitespace-nowrap">Sign In</span>
+            class="btn-secondary btn-sm">
+            <i class="fa-solid fa-arrow-right-to-bracket text-sm"></i>
+            <span>Sign In</span>
           </a>
 
         </div>

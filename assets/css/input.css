@@ -25,10 +25,11 @@ body {
   --th-blue-dark: #2f3672;
   --th-blue-light: #eef2ff;
 
-  /* Supporting Neutrals */
+  /* Supporting Neutrals & Unified Text Tokens */
   --th-text-main: #0f172a;
-  --th-text-slate: #1e293b;
-  --th-text-muted: #64748b;
+  --th-text-muted: #475569;
+  --th-text-inverse: #ffffff;
+  --th-text-inverse-muted: #cbd5e1;
   --th-surface-base: #f8fafc;
   --th-surface-card: #ffffff;
   --th-border-default: #e2e8f0;
@@ -53,10 +54,60 @@ body {
   line-height: 1.6;
 }
 
-h1,
-h2,
-h3,
-h4,
+/* ==========================================================================
+   SITE-WIDE TEXT COLOR SYSTEM NORMALIZATION (MAX 6 PALETTE TOKENS)
+   Goal: Consolidate all text colors across every page to 6 shared system tokens.
+   ========================================================================== */
+
+/* 1. Primary Dark Text & Headings (#0f172a on light surfaces) */
+.text-slate-900,
+.text-slate-950,
+.text-slate-800 {
+  color: #0f172a;
+}
+
+/* 2. Secondary Body & Muted Dark Text (#475569) */
+.text-slate-700,
+.text-slate-600,
+.text-slate-500,
+.text-slate-400 {
+  color: #475569;
+}
+
+/* 3. Primary Light / White Text (#ffffff on dark surfaces) */
+.text-white,
+.bg-brand-blue,
+.bg-brand-blueDark,
+.bg-slate-900,
+.bg-slate-950 {
+  color: #ffffff;
+}
+
+.bg-brand-blue h1, .bg-brand-blue h2, .bg-brand-blue h3, .bg-brand-blue h4, .bg-brand-blue h5, .bg-brand-blue h6,
+.bg-brand-blueDark h1, .bg-brand-blueDark h2, .bg-brand-blueDark h3, .bg-brand-blueDark h4, .bg-brand-blueDark h5, .bg-brand-blueDark h6,
+.bg-slate-900 h1, .bg-slate-900 h2, .bg-slate-900 h3, .bg-slate-900 h4, .bg-slate-900 h5, .bg-slate-900 h6,
+.bg-slate-950 h1, .bg-slate-950 h2, .bg-slate-950 h3, .bg-slate-950 h4, .bg-slate-950 h5, .bg-slate-950 h6,
+.text-white {
+  color: #ffffff !important;
+}
+
+/* 4. Muted Light Text on Dark Backgrounds (#cbd5e1) */
+.text-slate-200,
+.text-slate-300 {
+  color: #cbd5e1 !important;
+}
+
+/* 5. Brand Navy Blue Accent (#2f3672) */
+.text-brand-blue,
+.text-brand-blueDark {
+  color: #2f3672;
+}
+
+/* 6. Brand Yellow Accent (#ffd800) */
+.text-brand-yellow,
+.text-brand-yellowHover {
+  color: #ffd800 !important;
+}
 h5,
 h6,
 .font-heading {
@@ -149,7 +200,7 @@ h6,
   font-weight: 700;
   font-family: "Outfit", sans-serif;
   border-radius: var(--radius-xl);
-  padding: 0.625rem 1.25rem;
+  padding: 0.75rem 1.5rem;
   border: 2px solid var(--th-yellow-primary);
   display: inline-flex;
   align-items: center;
@@ -157,6 +208,7 @@ h6,
   gap: 0.5rem;
   cursor: pointer;
   user-select: none;
+  box-sizing: border-box;
   transition:
     background-color 200ms ease-in-out,
     color 200ms ease-in-out,
@@ -179,7 +231,7 @@ h6,
   font-weight: 700;
   font-family: "Outfit", sans-serif;
   border-radius: var(--radius-xl);
-  padding: 0.625rem 1.25rem;
+  padding: 0.75rem 1.5rem;
   border: 2px solid var(--th-blue-primary);
   display: inline-flex;
   align-items: center;
@@ -187,6 +239,7 @@ h6,
   gap: 0.5rem;
   cursor: pointer;
   user-select: none;
+  box-sizing: border-box;
   transition:
     background-color 200ms ease-in-out,
     color 200ms ease-in-out,
@@ -447,9 +500,8 @@ h6,
   flex: 1 1 auto !important;
 }
 
-/* Icon Badges Fixed Size (Never Stretch or Squeeze) */
-#why-choose-slider .rounded-full,
-.slick-carousel .rounded-full {
+/* Icon Badges Fixed Size for Why Choose Slider */
+#why-choose-slider .rounded-full {
   width: 64px !important;
   height: 64px !important;
   min-width: 64px !important;
@@ -461,6 +513,33 @@ h6,
   flex-shrink: 0 !important;
 }
 
+/* Testimonials Slider Profile Image & Customer Name Visibility */
+#testimonials-slider .slick-slide {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+#testimonials-slider .slick-slide.slick-active {
+  opacity: 1 !important;
+  z-index: 10 !important;
+}
+#testimonials-slider img {
+  width: 80px !important;
+  height: 80px !important;
+  min-width: 80px !important;
+  max-width: 80px !important;
+  border-radius: 9999px !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  object-fit: cover !important;
+}
+#testimonials-slider h3 {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  color: #ffffff !important;
+}
+
 /* Universal Modern Capsule Dot System for All Sliders Across Entire Site */
 .slick-dots {
   position: relative;
@@ -469,10 +548,10 @@ h6,
   display: flex !important;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 8px !important;
   z-index: 20;
-  padding: 0;
-  list-style: none;
+  padding: 0 !important;
+  list-style: none !important;
 }
 #hero-slider .slick-dots {
   position: absolute;
@@ -480,32 +559,45 @@ h6,
   margin-top: 0;
 }
 .slick-dots li {
-  width: auto;
-  height: auto;
-  margin: 0;
-  display: inline-block;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
 }
 .slick-dots li button {
   width: 10px;
   height: 10px;
-  padding: 0;
+  padding: 0 !important;
+  margin: 0 !important;
   border-radius: 9999px;
-  background: #cbd5e1;
-  border: none;
+  background: #94a3b8;
+  border: none !important;
   font-size: 0;
   line-height: 0;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  box-sizing: border-box;
+}
+.slick-dots li button:hover {
+  background: #64748b;
 }
 .slick-dots li button:before {
   display: none !important;
 }
 .slick-dots li.slick-active button {
-  width: 32px;
+  width: 28px;
   height: 10px;
   border-radius: 9999px;
   background: var(--th-yellow-primary) !important;
   box-shadow: 0 2px 8px rgba(255, 216, 0, 0.4);
+}
+.slick-dots li button:focus-visible {
+  outline: 2px solid var(--th-blue-primary);
+  outline-offset: 2px;
 }
 
 /* Dark Section Slick Dots (Hero & Testimonials) */

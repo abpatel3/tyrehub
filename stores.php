@@ -49,17 +49,17 @@ include 'includes/header.php';
     <div class="text-center mb-8" data-aos="fade-up" data-aos-duration="600">
       <!-- Store Filter Buttons Pills -->
       <div class="flex flex-wrap items-center justify-center gap-2 max-w-3xl mx-auto">
-        <button onclick="filterByLocation('all')" class="store-tag-btn active-tag bg-brand-yellow text-slate-950 font-medium text-xs px-4 py-2 rounded-xl border border-brand-yellow transition shadow-sm" data-loc="all">All Stores (10)</button>
-        <button onclick="filterByLocation('motera')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="motera">Motera</button>
-        <button onclick="filterByLocation('viratnagar')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="viratnagar">Viratnagar</button>
-        <button onclick="filterByLocation('ghatlodiya')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="ghatlodiya">Ghatlodiya</button>
-        <button onclick="filterByLocation('nikol')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="nikol">Nikol</button>
-        <button onclick="filterByLocation('chandkheda')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="chandkheda">Chandkheda</button>
-        <button onclick="filterByLocation('new ranip')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="new ranip">New Ranip</button>
-        <button onclick="filterByLocation('satellite')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="satellite">Satellite</button>
-        <button onclick="filterByLocation('thakkarnagar')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="thakkarnagar">Thakkarnagar</button>
-        <button onclick="filterByLocation('kudasan')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="kudasan">Kudasan</button>
-        <button onclick="filterByLocation('gota')" class="store-tag-btn bg-slate-100 hover:bg-brand-yellow hover:text-slate-900 text-slate-700 font-medium text-xs px-3.5 py-2 rounded-xl border border-slate-200 transition" data-loc="gota">Gota</button>
+        <button onclick="filterByLocation('all')" class="store-tag-btn active-tag btn-primary btn-sm" data-loc="all">All Stores (10)</button>
+        <button onclick="filterByLocation('motera')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="motera">Motera</button>
+        <button onclick="filterByLocation('viratnagar')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="viratnagar">Viratnagar</button>
+        <button onclick="filterByLocation('ghatlodiya')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="ghatlodiya">Ghatlodiya</button>
+        <button onclick="filterByLocation('nikol')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="nikol">Nikol</button>
+        <button onclick="filterByLocation('chandkheda')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="chandkheda">Chandkheda</button>
+        <button onclick="filterByLocation('new ranip')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="new ranip">New Ranip</button>
+        <button onclick="filterByLocation('satellite')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="satellite">Satellite</button>
+        <button onclick="filterByLocation('thakkarnagar')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="thakkarnagar">Thakkarnagar</button>
+        <button onclick="filterByLocation('kudasan')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="kudasan">Kudasan</button>
+        <button onclick="filterByLocation('gota')" class="store-tag-btn btn-outline-blue btn-sm" data-loc="gota">Gota</button>
       </div>
     </div>
 

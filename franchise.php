@@ -11,7 +11,7 @@ include 'includes/header.php';
 <!-- 1. HERO BANNER SECTION WITH MASCOT         -->
 <!-- ========================================== -->
 <section class="bg-gradient-to-b from-slate-100 via-slate-50 to-white py-12 sm:py-14 border-b border-slate-200/90 relative overflow-hidden">
-  <div class="container mx-auto px-4 max-w-6xl">
+  <div class="container mx-auto px-3">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
       
       <!-- Left 8 Columns: Hero Text & Badges -->
@@ -87,7 +87,7 @@ include 'includes/header.php';
 <!-- 2. MAIN FRANCHISE CONTENT & FORM SECTION   -->
 <!-- ========================================== -->
 <section class="py-10 sm:py-14 bg-slate-50">
-  <div class="container mx-auto px-4 max-w-6xl">
+  <div class="container mx-auto px-3">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
 
       <!-- ========================================== -->
@@ -314,9 +314,9 @@ include 'includes/header.php';
             </div>
 
             <!-- 7. Send Button -->
-            <button type="submit" class="w-full py-3.5 bg-brand-yellow hover:bg-brand-yellowHover text-slate-950 font-bold text-xs uppercase tracking-wider rounded-2xl transition shadow-xs flex items-center justify-center gap-2 group cursor-pointer">
-              <span>Send</span>
-              <i class="fa-solid fa-paper-plane text-xs group-hover:translate-x-1 transition duration-200"></i>
+            <button type="submit" class="btn-primary btn-lg w-full">
+              <span>Send Application</span>
+              <i class="fa-solid fa-paper-plane text-xs group-hover:translate-x-1 transition duration-200" aria-hidden="true"></i>
             </button>
 
           </form>

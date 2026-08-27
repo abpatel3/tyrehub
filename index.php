@@ -24,14 +24,14 @@ include 'includes/header.php';
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-8 text-white space-y-4">
                 <div
-                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow text-slate-950 font-bold text-xs uppercase tracking-wider shadow-md">
-                  <i class="fa-solid fa-dharmachakra text-slate-950"></i> Free Doorstep Fitment Included
+                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/15 border border-brand-yellow/40 text-brand-yellow font-semibold text-xs tracking-wider backdrop-blur-md">
+                  <i class="fa-solid fa-dharmachakra text-brand-yellow" aria-hidden="true"></i> Free Doorstep Fitment Included
                 </div>
 
-                <h2
+                <h1
                   class="text-2xl sm:text-3xl lg:text-4xl font-medium text-white leading-tight tracking-tight font-outfit drop-shadow-md">
                   Drive With <span class="text-brand-yellow font-bold">Confidence.</span>
-                </h2>
+                </h1>
 
                 <p class="text-base sm:text-lg font-medium text-slate-200 font-heading">
                   Buy Genuine Car &amp; Bike Tyres Online at Wholesale Prices
@@ -47,10 +47,10 @@ include 'includes/header.php';
                     class="btn-primary text-sm font-bold px-7 py-3.5">
                     <i class="fa-solid fa-cart-shopping mr-2"></i> SHOP TYRES NOW
                   </button>
-                  <a href="#finder-section"
-                    class="bg-white/15 backdrop-blur-md text-white border border-white/30 hover:bg-white hover:text-slate-900 hover:border-white px-6 py-3.5 rounded-xl text-sm font-semibold transition-colors duration-200">
+                  <button type="button" onclick="document.getElementById('finder-section').scrollIntoView({behavior: 'smooth'})"
+                    class="btn-outline-yellow">
                     Search By Size
-                  </a>
+                  </button>
                 </div>
               </div>
 
@@ -65,7 +65,7 @@ include 'includes/header.php';
                   <span class="block text-white font-bold text-lg font-outfit">Up to 35% OFF</span>
                   <span class="block text-xs text-slate-300 font-medium my-1.5">Free Mounting &amp; Balancing</span>
                   <span
-                    class="inline-block bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[11px] font-bold px-3 py-0.5 rounded-full uppercase">100%
+                    class="inline-block bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold px-3 py-0.5 rounded-full">100%
                     Genuine</span>
                 </div>
               </div>
@@ -85,8 +85,8 @@ include 'includes/header.php';
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-8 text-white space-y-4">
                 <div
-                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow text-slate-950 font-bold text-xs uppercase tracking-wider shadow-md">
-                  <i class="fa-solid fa-briefcase text-slate-950"></i> We Are Hiring • Career Opportunity
+                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/15 border border-brand-yellow/40 text-brand-yellow font-semibold text-xs tracking-wider backdrop-blur-md">
+                  <i class="fa-solid fa-briefcase text-brand-yellow" aria-hidden="true"></i> We Are Hiring • Career Opportunity
                 </div>
 
                 <h2
@@ -109,7 +109,7 @@ include 'includes/header.php';
                     <i class="fa-solid fa-user-plus mr-2"></i> JOIN OUR TEAM
                   </button>
                   <a href="tel:7575888916"
-                    class="bg-white/15 backdrop-blur-md text-white border border-white/30 hover:bg-white hover:text-slate-900 hover:border-white px-6 py-3.5 rounded-xl text-sm font-semibold transition-colors duration-200">
+                    class="btn-outline-yellow">
                     Contact HR
                   </a>
                 </div>
@@ -126,7 +126,7 @@ include 'includes/header.php';
                   <span class="block text-white font-bold text-lg font-outfit">Urgent Openings</span>
                   <span class="block text-xs text-slate-300 font-medium my-1.5">Full-Time &amp; Part-Time</span>
                   <span
-                    class="inline-block bg-brand-yellow/20 text-brand-yellow text-[11px] font-bold px-3 py-0.5 rounded-full uppercase">Apply
+                    class="inline-block bg-brand-yellow/20 text-brand-yellow text-xs font-bold px-3 py-0.5 rounded-full">Apply
                     Today</span>
                 </div>
               </div>
@@ -146,8 +146,8 @@ include 'includes/header.php';
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-8 text-white space-y-4">
                 <div
-                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow text-slate-950 font-bold text-xs uppercase tracking-wider shadow-md">
-                  <i class="fa-solid fa-bolt text-slate-950"></i> Emergency Roadside Assistance
+                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/15 border border-brand-yellow/40 text-brand-yellow font-semibold text-xs tracking-wider backdrop-blur-md">
+                  <i class="fa-solid fa-bolt text-brand-yellow" aria-hidden="true"></i> Emergency Roadside Assistance
                 </div>
 
                 <h2
@@ -170,7 +170,7 @@ include 'includes/header.php';
                     <i class="fa-solid fa-bolt mr-2"></i> GET BATTERY NOW
                   </button>
                   <a href="tel:7575888916"
-                    class="bg-white/15 backdrop-blur-md text-white border border-white/30 hover:bg-white hover:text-slate-900 hover:border-white px-6 py-3.5 rounded-xl text-sm font-semibold transition-colors duration-200">
+                    class="btn-outline-yellow">
                     Call 7575 888 916
                   </a>
                 </div>
@@ -186,7 +186,7 @@ include 'includes/header.php';
                   <span class="block text-white font-bold text-lg font-outfit">30-Min Arrival</span>
                   <span class="block text-xs text-slate-300 font-medium my-1.5">Express Doorstep Dispatch</span>
                   <span
-                    class="inline-block bg-brand-yellow/20 text-brand-yellow text-[11px] font-bold px-3 py-0.5 rounded-full uppercase">Exide
+                    class="inline-block bg-brand-yellow/20 text-brand-yellow text-xs font-bold px-3 py-0.5 rounded-full">Exide
                     &amp; Amaron</span>
                 </div>
               </div>
@@ -205,8 +205,8 @@ include 'includes/header.php';
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
               <div class="lg:col-span-8 text-white space-y-4">
                 <div
-                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow text-slate-950 font-bold text-xs uppercase tracking-wider shadow-md">
-                  <i class="fa-solid fa-triangle-exclamation text-slate-950"></i> Car Stuck On The Road?
+                  class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/15 border border-brand-yellow/40 text-brand-yellow font-semibold text-xs tracking-wider backdrop-blur-md">
+                  <i class="fa-solid fa-triangle-exclamation text-brand-yellow" aria-hidden="true"></i> Car Stuck On The Road?
                 </div>
 
                 <h2
@@ -225,10 +225,10 @@ include 'includes/header.php';
 
                 <div class="flex flex-wrap items-center gap-3 pt-2">
                   <a href="tel:7575888916" class="btn-primary text-sm font-bold px-7 py-3.5 inline-flex items-center">
-                    <i class="fa-solid fa-phone-volume mr-2"></i> CALL 7575 888 916
+                    <i class="fa-solid fa-phone-volume mr-2" aria-hidden="true"></i> Call 7575 888 916
                   </a>
                   <button onclick="openBookingModal('Emergency Roadside Support')"
-                    class="bg-white/15 backdrop-blur-md text-white border border-white/30 hover:bg-white hover:text-slate-900 hover:border-white px-6 py-3.5 rounded-xl text-sm font-semibold transition-colors duration-200">
+                    class="btn-outline-yellow">
                     Instant Booking
                   </button>
                 </div>
@@ -244,7 +244,7 @@ include 'includes/header.php';
                   <span class="block text-white font-bold text-lg font-outfit">24/7 Roadside</span>
                   <span class="block text-xs text-slate-300 font-medium my-1.5">7575 888 916</span>
                   <span
-                    class="inline-block bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-[11px] font-bold px-3 py-0.5 rounded-full uppercase">Instant
+                    class="inline-block bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold px-3 py-0.5 rounded-full">Instant
                     Dispatch</span>
                 </div>
               </div>
@@ -258,20 +258,34 @@ include 'includes/header.php';
   <!-- ========================================== -->
   <!-- 4. INSTANT TYRE FINDER & SEARCH SETTINGS   -->
   <!-- ========================================== -->
-  <section id="finder-section" class="py-12 lg:py-16 bg-slate-50 relative z-30">
+  <section id="finder-section" class="py-16 lg:py-24 bg-slate-50 relative border-t border-slate-200/80 scroll-mt-20">
     <div class="container mx-auto px-3">
+
+      <!-- Finder Section Header Block -->
+      <div class="text-center max-w-2xl mx-auto mb-10" data-aos="fade-up">
+        <div
+          class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-blue/10 border border-brand-blue/20 text-brand-blue text-xs font-bold uppercase tracking-wider mb-3">
+          <i class="fa-solid fa-sliders"></i> Instant Tyre Finder
+        </div>
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-brand-blue font-outfit">
+          Search &amp; Buy Tyres Online
+        </h2>
+        <p class="text-xs sm:text-sm text-slate-600 font-medium mt-2">
+          Filter by vehicle model, tyre size, or registration number for instant doorstep fitment
+        </p>
+      </div>
 
       <!-- 2-Column Responsive Layout: Left Information | Right Search Settings -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
 
         <!-- ========================================================= -->
-        <!-- LEFT COLUMN: ONLY INFORMATION & VALUE HIGHLIGHTS (col-span-7) -->
+        <!-- LEFT COLUMN: ONLY INFORMATION & VALUE HIGHLIGHTS (col-span-6) -->
         <!-- ========================================================= -->
         <div class="lg:col-span-6 flex order-2 lg:order-1" data-aos="fade-right" data-aos-duration="600">
 
           <!-- Information Card Header & Highlights -->
           <div
-            class="w-full bg-white border border-slate-200/90 rounded-[28px] p-6 sm:p-8 shadow-lg relative overflow-hidden flex flex-col justify-between">
+            class="w-full bg-white border border-slate-200/90 rounded-[24px] p-6 sm:p-8 shadow-xl relative overflow-hidden flex flex-col justify-between h-full">
             <!-- Decorative Subtle Accent Glow -->
             <div
               class="absolute -top-12 -left-12 w-40 h-40 bg-brand-yellow/10 rounded-full blur-2xl pointer-events-none">
@@ -298,7 +312,7 @@ include 'includes/header.php';
               </p>
 
               <!-- Value Proposition Badges Grid -->
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div class="flex items-center gap-3 p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
                   <div
                     class="w-10 h-10 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center flex-shrink-0 font-bold text-base">
@@ -349,18 +363,18 @@ include 'includes/header.php';
                 class="mt-3.5 grid grid-cols-3 gap-2 py-2.5 px-3 bg-gradient-to-r from-brand-blue/5 via-slate-100/80 to-brand-yellow/15 rounded-2xl border border-slate-200/90 text-center">
                 <div>
                   <span class="block text-xs sm:text-sm font-extrabold text-brand-blue font-outfit">50,000+</span>
-                  <span class="block text-[9px] sm:text-[10px] text-slate-500 font-bold uppercase tracking-wider">Tyres
+                  <span class="block text-xs text-slate-500 font-bold uppercase tracking-wider">Tyres
                     Fitted</span>
                 </div>
                 <div class="border-x border-slate-200">
                   <span class="block text-xs sm:text-sm font-extrabold text-brand-blue font-outfit">4.9 ★</span>
                   <span
-                    class="block text-[9px] sm:text-[10px] text-slate-500 font-bold uppercase tracking-wider">Rating</span>
+                    class="block text-xs text-slate-500 font-bold uppercase tracking-wider">Rating</span>
                 </div>
                 <div>
                   <span class="block text-xs sm:text-sm font-extrabold text-brand-blue font-outfit">30 Mins</span>
                   <span
-                    class="block text-[9px] sm:text-[10px] text-slate-500 font-bold uppercase tracking-wider">Fitment</span>
+                    class="block text-xs text-slate-500 font-bold uppercase tracking-wider">Fitment</span>
                 </div>
               </div>
             </div>
@@ -369,23 +383,21 @@ include 'includes/header.php';
             <div class="mt-6 pt-4 border-t border-slate-100 space-y-3">
               <!-- Expert Support Callout Box -->
               <div
-                class="flex items-center justify-between p-3 sm:p-3.5 rounded-2xl bg-gradient-to-r from-slate-50 via-slate-100/80 to-brand-blue/10 border border-slate-200/90">
-                <div class="flex items-center gap-2.5 sm:gap-3">
+                class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 sm:p-4 rounded-2xl bg-slate-50 border border-slate-200/90">
+                <div class="flex items-center gap-3">
                   <div
-                    class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-brand-yellow text-brand-blue flex items-center justify-center font-bold text-base flex-shrink-0 shadow-sm">
-                    <i class="fa-solid fa-headset"></i>
+                    class="w-10 h-10 rounded-xl bg-brand-yellow text-brand-blue flex items-center justify-center font-bold text-base flex-shrink-0 shadow-sm">
+                    <i class="fa-solid fa-headset" aria-hidden="true"></i>
                   </div>
                   <div>
-                    <span class="block text-xs font-bold text-slate-900">Need Help Choosing Tyres?</span>
-                    <span class="block text-[11px] text-slate-600 font-medium">Talk to TyreHub Expert for instant
-                      advice</span>
+                    <span class="block text-xs sm:text-sm font-bold text-slate-900">Need Help Choosing Tyres?</span>
+                    <span class="block text-xs text-slate-600 font-medium">Talk to a TyreHub Expert for instant advice</span>
                   </div>
                 </div>
                 <a href="tel:+919876543210"
-                  class="px-3 sm:px-3.5 py-2 rounded-xl bg-brand-blue text-brand-yellow text-xs font-extrabold hover:bg-brand-blue/90 transition text-center flex items-center gap-1.5 flex-shrink-0 shadow-sm">
-                  <i class="fa-solid fa-phone text-[10px]"></i>
-                  <span class="hidden sm:inline">Call Expert</span>
-                  <span class="sm:hidden">Call</span>
+                  class="btn-secondary btn-sm self-start sm:self-auto">
+                  <i class="fa-solid fa-phone text-xs" aria-hidden="true"></i>
+                  <span>Call Expert</span>
                 </a>
               </div>
             </div>
@@ -398,20 +410,16 @@ include 'includes/header.php';
         <!-- ========================================================= -->
         <div class="lg:col-span-6 flex order-1 lg:order-2" data-aos="fade-left" data-aos-duration="600">
           <div id="search-card"
-            class="w-full bg-white border border-slate-200/90 rounded-[24px] p-5 sm:p-6 shadow-xl relative z-40 flex flex-col justify-between">
+            class="w-full bg-white border border-slate-200/90 rounded-[24px] p-6 sm:p-8 shadow-xl relative z-40 flex flex-col justify-between h-full">
 
             <div>
               <!-- Search Settings Header -->
-              <div class="flex items-center gap-2.5 mb-4 pb-3 border-b border-slate-100">
-                <div
-                  class="w-9 h-9 rounded-xl bg-brand-yellow text-brand-blue flex items-center justify-center font-bold text-base shadow-sm flex-shrink-0">
-                  <i class="fa-solid fa-sliders"></i>
-                </div>
-                <div>
+              <div class="mb-4 pb-3 border-b border-slate-100">
+                <div class="flex items-center gap-2.5 mb-1">
+                  <i class="fa-solid fa-sliders text-brand-blue text-base"></i>
                   <h3 class="text-base sm:text-lg font-bold text-brand-blue font-outfit">Tyre Search Settings</h3>
-                  <p class="text-[11px] text-slate-500 font-medium">Configure your search parameters for instant match
-                  </p>
                 </div>
+                <p class="text-xs sm:text-sm text-slate-500 font-medium">Configure your search parameters for instant match</p>
               </div>
 
               <!-- 3 Pill-Style Tabs Header with Common SHOP BY Label -->
@@ -523,7 +531,7 @@ include 'includes/header.php';
                       class="w-7 h-7 rounded-lg bg-brand-blue/10 text-brand-blue flex items-center justify-center font-bold text-xs flex-shrink-0">
                       <i class="fa-solid fa-circle-info"></i>
                     </div>
-                    <p class="text-[11px] text-slate-600 font-medium leading-tight">
+                    <p class="text-xs text-slate-600 font-medium leading-tight">
                       Check your tyre sidewall for size specs e.g. <strong class="text-brand-blue font-bold">185 / 65 R
                         15</strong>
                     </p>
@@ -531,7 +539,7 @@ include 'includes/header.php';
 
                   <form class="space-y-2.5" onsubmit="return false;">
                     <!-- 3-Column Size Specs -->
-                    <div class="grid grid-cols-3 gap-2">
+                    <div class="grid grid-cols-3 gap-3.5">
                       <div>
                         <label
                           class="block text-[10px] font-bold text-slate-600 uppercase tracking-wider mb-1">Width</label>
@@ -737,8 +745,8 @@ include 'includes/header.php';
       <h2 class="text-3xl md:text-4xl font-medium text-white tracking-tight" data-aos="fade-up" data-aos-duration="600">
         Car Battery <span class="text-brand-yellow font-bold">Replacement In Minutes</span>
       </h2>
-      <p class="mt-2 text-xs md:text-sm font-semibold tracking-widest text-slate-300 uppercase" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-        GET A CAR BATTERY OR CAR JUMP-START ON THE SPOT
+      <p class="mt-2 text-xs md:text-sm font-semibold tracking-wide text-slate-300" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+        Get a car battery or car jump-start on the spot
       </p>
 
       <!-- 3-Step Emergency Process Cards (Matching Old Screenshot) -->
@@ -817,7 +825,7 @@ include 'includes/header.php';
   <!-- ========================================== -->
   <!-- 9. "WHY CHOOSE TYREHUB?" SECTION          -->
   <!-- ========================================== -->
-  <section class="py-16 bg-white">
+  <section class="py-16 bg-white scroll-mt-20">
     <div class="container mx-auto px-3 text-center">
 
       <span class="text-xs font-bold uppercase tracking-widest text-slate-400 block" data-aos="fade-up" data-aos-duration="600">Tyrehub</span>
@@ -926,10 +934,10 @@ include 'includes/header.php';
         <!-- Step 1 -->
         <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
           <div
-            class="w-20 h-20 rounded-full bg-brand-yellow/20 border-2 border-brand-yellow flex items-center justify-center text-brand-yellow text-2xl mb-4 relative shadow-glow-yellow">
-            <i class="fa-solid fa-dharmachakra"></i>
+            class="w-22 h-22 sm:w-24 sm:h-24 rounded-full bg-brand-yellow/20 border-2 border-brand-yellow flex items-center justify-center text-brand-yellow text-2xl sm:text-3xl mb-4 relative shadow-glow-yellow mx-auto">
+            <i class="fa-solid fa-dharmachakra" aria-hidden="true"></i>
             <span
-              class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit">01</span>
+              class="absolute -top-1 -right-1 w-8 h-8 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit border-2 border-brand-blue shadow-md">01</span>
           </div>
           <h3 class="text-base font-bold text-white mt-1">Buy Tyre Or Service</h3>
           <p class="text-xs text-slate-300 mt-1 max-w-xs leading-relaxed">
@@ -940,10 +948,10 @@ include 'includes/header.php';
         <!-- Step 2 -->
         <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
           <div
-            class="w-20 h-20 rounded-full bg-brand-yellow/20 border-2 border-brand-yellow flex items-center justify-center text-brand-yellow text-2xl mb-4 relative shadow-glow-yellow">
-            <i class="fa-solid fa-map-location-dot"></i>
+            class="w-22 h-22 sm:w-24 sm:h-24 rounded-full bg-brand-yellow/20 border-2 border-brand-yellow flex items-center justify-center text-brand-yellow text-2xl sm:text-3xl mb-4 relative shadow-glow-yellow mx-auto">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
             <span
-              class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit">02</span>
+              class="absolute -top-1 -right-1 w-8 h-8 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit border-2 border-brand-blue shadow-md">02</span>
           </div>
           <h3 class="text-base font-bold text-white mt-1">Select Service Partner Near By</h3>
           <p class="text-xs text-slate-300 mt-1 max-w-xs leading-relaxed">
@@ -954,14 +962,14 @@ include 'includes/header.php';
         <!-- Step 3 -->
         <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
           <div
-            class="w-20 h-20 rounded-full bg-brand-yellow/20 border-2 border-brand-yellow flex items-center justify-center text-brand-yellow text-2xl mb-4 relative shadow-glow-yellow">
-            <i class="fa-solid fa-file-invoice-dollar"></i>
+            class="w-22 h-22 sm:w-24 sm:h-24 rounded-full bg-brand-yellow/20 border-2 border-brand-yellow flex items-center justify-center text-brand-yellow text-2xl sm:text-3xl mb-4 relative shadow-glow-yellow mx-auto">
+            <i class="fa-solid fa-file-invoice-dollar" aria-hidden="true"></i>
             <span
-              class="absolute -top-2 -right-2 w-7 h-7 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit">03</span>
+              class="absolute -top-1 -right-1 w-8 h-8 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit border-2 border-brand-blue shadow-md">03</span>
           </div>
           <h3 class="text-base font-bold text-white mt-1">Make Payment And Take Invoice</h3>
           <p class="text-xs text-slate-300 mt-1 max-w-xs leading-relaxed">
-            Pay safely via UPI, cards, netbanking or cash on fitment with GST invoice.
+            Pay securely online or after fitment and receive official brand warranty invoice.
           </p>
         </div>
 
@@ -1029,8 +1037,8 @@ include 'includes/header.php';
 
           <div class="pt-2">
             <button onclick="openBookingModal('General Doorstep Inquiry')"
-              class="btn-secondary text-xs md:text-sm px-6 py-2.5">
-              <i class="fa-solid fa-shield-check"></i> Experience TyreHub Advantage
+              class="btn-primary text-sm md:text-base px-8 py-3.5 shadow-lg inline-flex items-center gap-2">
+              <i class="fa-solid fa-shield-check" aria-hidden="true"></i> Experience TyreHub Advantage
             </button>
           </div>
         </div>
@@ -1049,7 +1057,7 @@ include 'includes/header.php';
   <!-- ========================================== -->
   <!-- 12. WHAT OUR CUSTOMERS SAY (TESTIMONIALS)  -->
   <!-- ========================================== -->
-  <section class="py-16 lg:py-20 bg-brand-blueDark text-white relative">
+  <section id="testimonials" class="pt-20 pb-16 lg:pt-24 lg:pb-20 bg-brand-blueDark text-white relative scroll-mt-20">
     <div class="container mx-auto px-3 max-w-4xl text-center relative z-10">
 
       <!-- Header Block (Element 1 - Fade Up) -->
@@ -1081,12 +1089,12 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i>
               </div>
 
-              <blockquote class="text-xs md:text-base text-slate-200 max-w-2xl leading-relaxed italic">
-                <i class="fa-solid fa-quote-left text-brand-yellow mr-2"></i>
+              <blockquote class="text-xs md:text-base text-slate-200 max-w-2xl leading-relaxed font-normal">
+                <i class="fa-solid fa-quote-left text-brand-yellow mr-2" aria-hidden="true"></i>
                 I purchased car tyres online first time from TyreHub and get them installed from their service partner.
                 It was an amazing experience. The entire process was smooth and impressive. Highly recommend TyreHub. I
                 would definitely buy again.
-                <i class="fa-solid fa-quote-right text-brand-yellow ml-2"></i>
+                <i class="fa-solid fa-quote-right text-brand-yellow ml-2" aria-hidden="true"></i>
               </blockquote>
             </div>
           </div>
@@ -1108,11 +1116,11 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i>
               </div>
 
-              <blockquote class="text-xs md:text-base text-slate-200 max-w-2xl leading-relaxed italic">
-                <i class="fa-solid fa-quote-left text-brand-yellow mr-2"></i>
+              <blockquote class="text-xs md:text-base text-slate-200 max-w-2xl leading-relaxed font-normal">
+                <i class="fa-solid fa-quote-left text-brand-yellow mr-2" aria-hidden="true"></i>
                 My car battery died in the middle of SG Highway at 9 PM. Called TyreHub emergency helpline and the
                 technician was at my location in 25 minutes with a brand new Exide battery. Fantastic service!
-                <i class="fa-solid fa-quote-right text-brand-yellow ml-2"></i>
+                <i class="fa-solid fa-quote-right text-brand-yellow ml-2" aria-hidden="true"></i>
               </blockquote>
             </div>
           </div>
@@ -1134,11 +1142,11 @@ include 'includes/header.php';
                 <i class="fa-solid fa-star"></i>
               </div>
 
-              <blockquote class="text-xs md:text-base text-slate-200 max-w-2xl leading-relaxed italic">
-                <i class="fa-solid fa-quote-left text-brand-yellow mr-2"></i>
+              <blockquote class="text-xs md:text-base text-slate-200 max-w-2xl leading-relaxed font-normal">
+                <i class="fa-solid fa-quote-left text-brand-yellow mr-2" aria-hidden="true"></i>
                 Best price on Bridgestone tyres in Ahmedabad. Got doorstep fitment and free wheel balancing done at my
                 office parking lot. Saved so much time and hassle.
-                <i class="fa-solid fa-quote-right text-brand-yellow ml-2"></i>
+                <i class="fa-solid fa-quote-right text-brand-yellow ml-2" aria-hidden="true"></i>
               </blockquote>
             </div>
           </div>
@@ -1146,16 +1154,16 @@ include 'includes/header.php';
         </div>
 
         <!-- Custom Navigation -->
-        <div class="flex items-center justify-center gap-3 mt-6">
+        <div class="flex items-center justify-center gap-4 mt-4">
           <button id="testimonial-prev"
-            class="w-9 h-9 rounded-full bg-white/20 hover:bg-brand-yellow hover:text-brand-blue text-white flex items-center justify-center transition"
-            aria-label="Previous">
-            <i class="fa-solid fa-chevron-left text-xs"></i>
+            class="w-10 h-10 rounded-full bg-white/20 hover:bg-brand-yellow hover:text-brand-blue text-white flex items-center justify-center transition shadow-md"
+            aria-label="Previous Slide">
+            <i class="fa-solid fa-chevron-left text-xs" aria-hidden="true"></i>
           </button>
           <button id="testimonial-next"
-            class="w-9 h-9 rounded-full bg-white/20 hover:bg-brand-yellow hover:text-brand-blue text-white flex items-center justify-center transition"
-            aria-label="Next">
-            <i class="fa-solid fa-chevron-right text-xs"></i>
+            class="w-10 h-10 rounded-full bg-white/20 hover:bg-brand-yellow hover:text-brand-blue text-white flex items-center justify-center transition shadow-md"
+            aria-label="Next Slide">
+            <i class="fa-solid fa-chevron-right text-xs" aria-hidden="true"></i>
           </button>
         </div>
 
