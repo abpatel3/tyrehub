@@ -879,3 +879,98 @@ select option:checked {
   font-weight: 700;
   color: #0f172a;
 }
+
+/* ==========================================================================
+   ALIGNMENT HERO VEHICLE SELECTOR & FEATURE BADGES
+   ========================================================================== */
+.alignment-hero-bg {
+  background-color: #0b1122 !important;
+}
+
+.alignment-backdrop-gradient {
+  background: linear-gradient(90deg, #0b1122 0%, rgba(11, 17, 34, 0.96) 50%, rgba(11, 17, 34, 0.7) 100%) !important;
+}
+
+.vehicle-selector-badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 9999px;
+  background-color: #edf1f9 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.625rem;
+  color: #242e6d !important;
+}
+
+.vehicle-option-card {
+  border: 2px solid #e2e8f0 !important;
+  transition: border-color 150ms ease, box-shadow 150ms ease !important;
+  background-color: #ffffff !important;
+  cursor: pointer;
+}
+
+.vehicle-option-card.is-active {
+  border-color: #242e6d !important;
+}
+
+.vehicle-option-card:not(.is-active) {
+  border-color: #e2e8f0 !important;
+}
+
+.vehicle-option-card:not(.is-active):hover {
+  border-color: #cbd5e1 !important;
+}
+
+.radio-ring {
+  width: 20px;
+  height: 20px;
+  border-radius: 9999px;
+  border: 2px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: border-color 180ms ease;
+}
+
+.radio-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  background-color: #242e6d;
+  display: none;
+}
+
+.vehicle-option-card.is-active .radio-ring {
+  border-color: #242e6d !important;
+}
+
+.vehicle-option-card.is-active .radio-dot {
+  display: block !important;
+}
+
+.vehicle-option-card:not(.is-active) .radio-ring {
+  border-color: #cbd5e1 !important;
+}
+
+.vehicle-option-card:not(.is-active) .radio-dot {
+  display: none !important;
+}
+
+.hero-feature-circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 9999px;
+  background: rgba(22, 33, 69, 0.92) !important;
+  border: 1px solid rgba(96, 165, 250, 0.28) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bfdbfe !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4);
+}
+
+

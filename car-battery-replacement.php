@@ -115,8 +115,8 @@ document.addEventListener('DOMContentLoaded', function() {
       <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/20 border border-brand-yellow/40 text-brand-blue font-semibold text-xs uppercase tracking-wider mb-2">
         <i class="fa-solid fa-bolt text-brand-yellow"></i> Fast &amp; Reliable Roadside Service
       </span>
-      <h2 class="text-3xl sm:text-4xl font-bold font-outfit text-brand-blueDark leading-tight">
-        Car Battery Replacement <span class="text-brand-yellow drop-shadow-xs">In Minutes</span>
+      <h2 class="text-3xl sm:text-4xl font-medium text-brand-blueDark leading-tight mt-1">
+        Car Battery Replacement <span class="font-bold">In Minutes</span>
       </h2>
       <p class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-slate-500 mt-2">
         GET A CAR BATTERY OR CAR JUMP-START ON THE SPOT
@@ -199,8 +199,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-yellow/20 border border-brand-yellow/40 text-brand-blue font-extrabold text-xs uppercase tracking-wider mb-3">
             <i class="fa-solid fa-bolt text-brand-yellow" aria-hidden="true"></i> Expert Battery Care
           </span>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-medium text-brand-blue font-outfit leading-tight">
-            Best Car Battery Replacement <span class="font-bold text-brand-yellow drop-shadow-xs">Service At TyreHub</span>
+          <h2 class="text-3xl sm:text-4xl font-medium text-brand-blueDark leading-tight mt-1">
+            Best Car Battery Replacement <span class="font-bold">Service At TyreHub</span>
           </h2>
           <div class="w-16 h-1 bg-brand-yellow rounded-full mt-3"></div>
         </div>
@@ -257,8 +257,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/20 border border-brand-yellow/40 text-brand-blue font-extrabold text-xs uppercase tracking-wider mb-3">
             <i class="fa-solid fa-bolt text-brand-yellow" aria-hidden="true"></i> Quick Emergency Boost
           </span>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-medium font-outfit text-brand-blue leading-tight">
-            Looking For A <span class="font-extrabold text-brand-yellow ">Car Battery Jump-Start?</span>
+          <h2 class="text-3xl sm:text-4xl font-medium text-brand-blueDark mt-1">
+            Looking For A <span class="font-bold">Car Battery Jump-Start?</span>
           </h2>
           <div class="w-16 h-1 bg-brand-yellow rounded-full mt-3"></div>
         </div>
@@ -365,8 +365,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/20 border border-brand-yellow/40 text-brand-blue font-extrabold text-xs uppercase tracking-wider mb-3">
             <i class="fa-solid fa-list-check text-brand-yellow" aria-hidden="true"></i> Free Multi-Point Inspection
           </span>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-medium text-brand-blue font-outfit leading-tight">
-            Car Battery Service At TyreHub: <span class="font-bold text-brand-yellow ">What To Expect?</span>
+          <h2 class="text-3xl md:text-4xl font-medium text-brand-blueDark mt-1">
+            Car Battery Service At TyreHub: <span class="font-bold">What To Expect?</span>
           </h2>
           <div class="w-16 h-1 bg-brand-yellow rounded-full mt-3 mb-4"></div>
           
@@ -484,8 +484,8 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-brand-yellow/20 border border-brand-yellow/40 text-brand-blue font-extrabold text-xs uppercase tracking-wider mb-3">
             <i class="fa-solid fa-car-battery text-brand-yellow" aria-hidden="true"></i> Vehicle Electrical Hub
           </span>
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-medium text-brand-blue font-outfit leading-tight">
-            The Importance Of A <span class="font-bold text-brand-yellow">Car Battery</span>
+          <h2 class="text-3xl md:text-4xl font-medium text-brand-blueDark mt-1">
+            The Importance Of A <span class="font-bold">Car Battery</span>
           </h2>
           <div class="w-16 h-1 bg-brand-yellow rounded-full mt-3"></div>
         </div>

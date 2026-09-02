@@ -90,7 +90,7 @@ $activePage = $current_page ?? 'home';
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
   <!-- Compiled Tailwind CSS (Local Build) -->
-  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="assets/css/tailwind.css?v=<?php echo file_exists(__DIR__ . '/../assets/css/tailwind.css') ? filemtime(__DIR__ . '/../assets/css/tailwind.css') : time(); ?>">
 </head>
 
 <body class="bg-slate-50 text-slate-900 antialiased selection:bg-brand-yellow selection:text-brand-blue">

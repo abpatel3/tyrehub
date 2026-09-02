@@ -142,7 +142,7 @@
           </a>
 
           <!-- Alignment & Balancing -->
-          <a href="index.php#car-battery" class="flex items-center gap-2 py-3.5 text-white hover:text-brand-yellow transition">
+          <a href="wheel-alignment-and-balancing.php" class="flex items-center gap-2 py-3.5 <?php echo get_active_nav_class('alignment', $activePage); ?> text-white hover:text-brand-yellow transition">
             <i class="fa-solid fa-arrows-to-dot text-sm"></i>
             <span>Alignment &amp; Balancing</span>
           </a>
@@ -158,10 +158,11 @@
 
             <!-- Services Dropdown Panel — White Clean Style -->
             <div
-              class="absolute left-0 top-full hidden group-hover:block w-72 bg-white rounded-2xl shadow-2xl border border-slate-100 py-2 z-50 animate-fadeIn">
+              class="absolute left-0 top-full hidden group-hover:block w-72 bg-white rounded-2xl shadow-2xl border border-slate-100 py-2 z-50 animate-fadeIn overflow-hidden"
+              style="overflow: hidden;">
 
               <!-- 1. Free Car Tyre Inspection -->
-              <a href="#" onclick="openBookingModal('Free Car Tyre Inspection')"
+              <a href="free-tyre-inspection.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
                   class="svc-icon w-10 h-10 rounded-xl bg-brand-blue flex items-center justify-center flex-shrink-0 transition">
@@ -174,7 +175,7 @@
               <div class="mx-4 border-t border-slate-100"></div>
 
               <!-- 2. Car Wash -->
-              <a href="#" onclick="openBookingModal('Car Wash')"
+              <a href="car-wash.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
                   class="svc-icon w-10 h-10 rounded-xl bg-blue-500 flex items-center justify-center flex-shrink-0 transition">
@@ -187,7 +188,7 @@
               <div class="mx-4 border-t border-slate-100"></div>
 
               <!-- 3. Car Flat Tyre / Jump Start -->
-              <a href="#" onclick="openBookingModal('Car Flat Tyre / Jump Start')"
+              <a href="car-flat-tyre-jump-start.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
                   class="svc-icon w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center flex-shrink-0 transition">
@@ -200,7 +201,7 @@
               <div class="mx-4 border-t border-slate-100"></div>
 
               <!-- 4. Towing Services -->
-              <a href="#" onclick="openBookingModal('Towing Services')"
+              <a href="towing-services.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
                   class="svc-icon w-10 h-10 rounded-xl bg-red-500 flex items-center justify-center flex-shrink-0 transition">
@@ -264,7 +265,7 @@
         <div class="mt-6 flex flex-col gap-2 text-sm font-semibold text-slate-200">
           <a href="#car-tyres" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-dharmachakra text-brand-yellow w-5"></i> Buy Tyre</a>
-          <a href="#alignment" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+          <a href="wheel-alignment-and-balancing.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-arrows-to-dot text-brand-yellow w-5"></i> Alignment &amp; Balancing</a>
           <a href="car-battery-replacement.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-car-battery text-brand-yellow w-5"></i> Car Battery Replacement</a>
@@ -280,22 +281,22 @@
 
             <!-- Sub-Services List (Accordion) -->
             <div id="mobile-services-sub-menu" class="hidden pl-8 pr-2 py-1 space-y-1 text-xs text-slate-300">
-              <a href="#" onclick="openBookingModal('Free Car Tyre Inspection'); $('#close-mobile-menu').click();"
+              <a href="free-tyre-inspection.php"
                 class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
                 <i class="fa-solid fa-magnifying-glass text-brand-yellow text-xs"></i>
                 <span>Free Car Tyre Inspection</span>
               </a>
-              <a href="#" onclick="openBookingModal('Car Wash'); $('#close-mobile-menu').click();"
+              <a href="car-wash.php"
                 class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
                 <i class="fa-solid fa-shower text-blue-400 text-xs"></i>
                 <span>Car Wash</span>
               </a>
-              <a href="#" onclick="openBookingModal('Car Flat Tyre / Jump Start'); $('#close-mobile-menu').click();"
+              <a href="car-flat-tyre-jump-start.php"
                 class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
                 <i class="fa-solid fa-bolt text-amber-400 text-xs"></i>
                 <span>Car Flat Tyre / Jump Start</span>
               </a>
-              <a href="#" onclick="openBookingModal('Towing Services'); $('#close-mobile-menu').click();"
+              <a href="towing-services.php"
                 class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
                 <i class="fa-solid fa-truck-pickup text-red-400 text-xs"></i>
                 <span>Towing Services</span>
