@@ -47,9 +47,9 @@
                 class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Home</a>
             <a href="about.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
                 class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> About Us</a>
-            <a href="#login" class="hover:text-brand-yellow transition flex items-center gap-2"><i
+            <a href="login.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
                 class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Login</a>
-            <a href="#register" class="hover:text-brand-yellow transition flex items-center gap-2"><i
+            <a href="register.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
                 class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Register</a>
             <a href="warranty.php" class="hover:text-brand-yellow transition flex items-center gap-2"><i
                 class="fa-solid fa-angle-right text-xs text-brand-yellow" aria-hidden="true"></i> Guarantee Warranty</a>

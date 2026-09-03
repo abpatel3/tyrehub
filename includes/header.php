@@ -76,14 +76,14 @@
           <div class="h-8 w-px bg-slate-200"></div>
 
           <!-- 4. Create Account -->
-          <a href="#"
+          <a href="register.php"
             class="btn-outline-blue btn-sm">
             <i class="fa-regular fa-user text-sm"></i>
             <span>Create Account</span>
           </a>
 
           <!-- 5. Sign In -->
-          <a href="#"
+          <a href="login.php"
             class="btn-secondary btn-sm">
             <i class="fa-solid fa-arrow-right-to-bracket text-sm"></i>
             <span>Sign In</span>
@@ -93,13 +93,13 @@
 
         <!-- Mobile Fast Actions -->
         <div class="flex lg:hidden items-center gap-3">
-          <button type="button"
+          <a href="cart.php"
             class="relative w-10 h-10 rounded-xl bg-slate-100 text-brand-blueDark hover:bg-brand-yellow flex items-center justify-center text-base transition shadow-sm"
             title="View Cart">
             <i class="fa-solid fa-cart-shopping"></i>
             <span
               class="cart-badge-count hidden absolute -top-1.5 -right-1.5 bg-red-600 text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center">0</span>
-          </button>
+          </a>
           <a href="#"
             class="hidden sm:flex bg-brand-yellow text-slate-900 text-xs font-bold px-3.5 py-2 rounded-lg items-center gap-1.5">
             <i class="fa-solid fa-star text-xs"></i>
@@ -128,8 +128,8 @@
         <div class="hidden lg:flex items-center gap-3.5 xl:gap-6 text-xs xl:text-[13px] font-semibold text-white">
 
           <!-- 1. Buy Tyre (plain link, no dropdown) -->
-          <a href="#featured-tyres"
-            class="flex items-center gap-2 py-3.5 text-white hover:text-brand-yellow transition">
+          <a href="buy-tyre.php"
+            class="flex items-center gap-2 py-3.5 <?php echo get_active_nav_class('buy-tyre', $activePage); ?> text-white hover:text-brand-yellow transition">
             <i class="fa-solid fa-dharmachakra text-sm"></i>
             <span>Buy Tyre</span>
           </a>
@@ -234,13 +234,13 @@
 
         <!-- Right Side: Cart Button -->
         <div class="flex items-center gap-3 ml-auto">
-          <button
+          <a href="cart.php"
             class="relative w-9 h-9 rounded-lg bg-white/10 hover:bg-brand-yellow hover:text-slate-900 text-white flex items-center justify-center transition shadow-sm"
             title="View Cart">
             <i class="fa-solid fa-cart-shopping text-sm"></i>
             <span id="cart-badge"
               class="cart-badge-count hidden absolute -top-1.5 -right-1.5 bg-red-600 text-white text-[9px] font-bold w-4 h-4 rounded-full flex items-center justify-center">0</span>
-          </button>
+          </a>
         </div>
 
       </div>
@@ -263,7 +263,7 @@
         </div>
 
         <div class="mt-6 flex flex-col gap-2 text-sm font-semibold text-slate-200">
-          <a href="#car-tyres" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+          <a href="buy-tyre.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-dharmachakra text-brand-yellow w-5"></i> Buy Tyre</a>
           <a href="wheel-alignment-and-balancing.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-arrows-to-dot text-brand-yellow w-5"></i> Alignment &amp; Balancing</a>
@@ -319,9 +319,9 @@
             </a>
             <a href="#" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
                 class="fa-solid fa-location-arrow text-brand-yellow w-5"></i> Track Order</a>
-            <a href="#" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+            <a href="register.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
                 class="fa-regular fa-user text-brand-yellow w-5"></i> Create Account</a>
-            <a href="#" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
+            <a href="login.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
                 class="fa-solid fa-arrow-right-to-bracket text-brand-yellow w-5"></i> Sign In</a>
           </div>
         </div>
