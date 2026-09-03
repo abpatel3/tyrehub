@@ -40,23 +40,27 @@ if (!in_array($active_tab, $valid_tabs)) {
       <div class="lg:col-span-4 space-y-4">
         
         <!-- User Profile Card -->
-        <div class="bg-white rounded-2xl border border-slate-200 p-5 shadow-2xs">
+        <div class="bg-white rounded-2xl border border-slate-200 p-4.5 shadow-2xs">
           <div class="flex items-center gap-3.5">
-            <div class="w-13 h-13 rounded-2xl bg-brand-blue text-brand-yellow font-bold text-lg flex items-center justify-center shrink-0 border-2 border-brand-yellow/30 shadow-xs">
-              AV
+            <div class="relative shrink-0">
+              <div class="w-12 h-12 rounded-full bg-gradient-to-br from-brand-blue to-slate-900 text-brand-yellow font-bold text-base flex items-center justify-center border-2 border-white shadow-xs">
+                AV
+              </div>
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
             </div>
-            <div class="min-w-0">
-              <div class="flex items-center gap-2">
+            
+            <div class="min-w-0 flex-1">
+              <div class="flex items-center justify-between gap-2">
                 <h3 class="text-sm font-semibold text-slate-900 truncate">Abhi Viramgama</h3>
-                <span class="inline-flex items-center px-1.5 py-0.5 rounded-md bg-emerald-50 text-emerald-700 text-[10px] font-semibold border border-emerald-200">
-                  Verified
+                <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-semibold border border-emerald-200/80 shrink-0">
+                  <i class="fa-solid fa-circle-check text-[9px] text-emerald-600"></i>
+                  <span>Verified</span>
                 </span>
               </div>
-              <p class="text-xs text-slate-500 font-normal mt-0.5">+91 98765 43210</p>
-              <div class="flex items-center gap-1.5 mt-1 text-[11px] text-amber-600 font-medium">
-                <i class="fa-solid fa-crown text-[10px]"></i>
-                <span>TyreHub Gold Member</span>
-              </div>
+              <p class="text-xs text-slate-500 font-medium mt-1 flex items-center gap-1.5">
+                <i class="fa-solid fa-phone text-[10px] text-slate-400"></i>
+                <span>+91 98765 43210</span>
+              </p>
             </div>
           </div>
         </div>
