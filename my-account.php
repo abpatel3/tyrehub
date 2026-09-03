@@ -50,13 +50,7 @@ if (!in_array($active_tab, $valid_tabs)) {
             </div>
             
             <div class="min-w-0 flex-1">
-              <div class="flex items-center justify-between gap-2">
-                <h3 class="text-sm font-semibold text-slate-900 truncate">Abhi Viramgama</h3>
-                <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-semibold border border-emerald-200/80 shrink-0">
-                  <i class="fa-solid fa-circle-check text-[9px] text-emerald-600"></i>
-                  <span>Verified</span>
-                </span>
-              </div>
+              <h3 class="text-sm font-semibold text-slate-900 truncate">Abhi Viramgama</h3>
               <p class="text-xs text-slate-500 font-medium mt-1 flex items-center gap-1.5">
                 <i class="fa-solid fa-phone text-[10px] text-slate-400"></i>
                 <span>+91 98765 43210</span>
