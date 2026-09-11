@@ -10,10 +10,34 @@ $(document).ready(function () {
   const $variantSelect = $("#vehicle-variant-select");
   const $searchBtn = $("#vehicle-search-submit");
   const $typeCards = $(".v-type-card");
+  const $vehicleImg = $("#vehicle-type-img");
+
+  const vehicleTypeImages = {
+    "2w": "assets/image/2wheeler.png",
+    "3w": "assets/image/3wheeler.png",
+    "4w": "assets/image/4-wheeler.png",
+  };
+
+  // Preload vehicle images for instant, smooth switching
+  Object.values(vehicleTypeImages).forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
 
   let fullVehicleData = null;
   let currentBrandsList = [];
   let activeVehicleType = "4w";
+
+  // Function to smoothly switch the vehicle illustration
+  function updateVehicleTypeImage(typeCode) {
+    if (!$vehicleImg.length) return;
+    const newSrc = vehicleTypeImages[typeCode] || vehicleTypeImages["4w"];
+    if ($vehicleImg.attr("src") === newSrc) return;
+
+    $vehicleImg.fadeOut(150, function () {
+      $vehicleImg.attr("src", newSrc).fadeIn(150);
+    });
+  }
 
   // Initialize Select2 on dropdowns
   function initSelect2() {
@@ -40,6 +64,7 @@ $(document).ready(function () {
   // 2. Load Vehicle Type (2w, 3w, 4w)
   function loadVehicleType(typeCode) {
     activeVehicleType = typeCode;
+    updateVehicleTypeImage(typeCode);
 
     if (fullVehicleData && fullVehicleData.categories && fullVehicleData.categories[typeCode]) {
       const category = fullVehicleData.categories[typeCode];

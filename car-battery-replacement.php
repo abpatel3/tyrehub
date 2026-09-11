@@ -130,12 +130,20 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Card 1: Call Us -->
       <div class="flex flex-col items-center text-center space-y-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
         
+        <span class="inline-flex items-center px-3 py-1 rounded-full bg-brand-yellow text-slate-950 font-semibold text-xs tracking-wide shadow-sm">
+          Step - 1
+        </span>
+
         <!-- Image Icon Wrapper -->
         <div class="h-16 sm:h-20 flex items-center justify-center my-2 group-hover:scale-110 transition duration-300">
           <img src="assets/image/battery/replacement-call.webp" alt="Call TyreHub Helpline" class="h-full w-auto object-contain max-w-full">
         </div>
 
-        <a href="tel:7575888916" class="text-xl sm:text-2xl font-bold font-outfit text-brand-blueDark hover:text-brand-yellow transition">
+        <h3 class="text-xl sm:text-2xl font-semibold font-outfit text-brand-blueDark">
+          Call Us
+        </h3>
+
+        <a href="tel:7575888916" class="text-lg sm:text-xl font-medium font-outfit text-brand-yellow hover:underline transition">
           7575 888 916
         </a>
 
@@ -147,34 +155,42 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- Card 2: 30 Minutes -->
       <div class="flex flex-col items-center text-center space-y-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
         
+        <span class="inline-flex items-center px-3 py-1 rounded-full bg-brand-yellow text-slate-950 font-semibold text-xs tracking-wide shadow-sm">
+          Step - 2
+        </span>
+
         <!-- Image Icon Wrapper -->
         <div class="h-16 sm:h-20 flex items-center justify-center my-2 group-hover:scale-110 transition duration-300">
           <img src="assets/image/battery/replacement-location.webp" alt="Fast 30 Minute Arrival" class="h-full w-auto object-contain max-w-full">
         </div>
 
-        <h3 class="text-xl sm:text-2xl font-bold font-outfit text-brand-blueDark">
-          30 Minutes
+        <h3 class="text-xl sm:text-2xl font-semibold font-outfit text-brand-blueDark">
+          Wait 30 Min
         </h3>
 
         <p class="text-xs sm:text-sm text-slate-600 font-normal leading-relaxed">
-          is what it takes our technicians to reach your location. Once there they will check your car and test your car battery.
+          Is what it takes our technicians to reach your location. Once there they will check your car and test your car battery.
         </p>
       </div>
 
       <!-- Card 3: Car Battery -->
       <div class="flex flex-col items-center text-center space-y-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
         
+        <span class="inline-flex items-center px-3 py-1 rounded-full bg-brand-yellow text-slate-950 font-semibold text-xs tracking-wide shadow-sm">
+          Step - 3
+        </span>
+
         <!-- Image Icon Wrapper -->
         <div class="h-16 sm:h-20 flex items-center justify-center my-2 group-hover:scale-110 transition duration-300">
           <img src="assets/image/battery/replacement-battery.webp" alt="Car Battery On The Spot Replacement" class="h-full w-auto object-contain max-w-full">
         </div>
 
-        <h3 class="text-xl sm:text-2xl font-bold font-outfit text-brand-blueDark">
-          Car Battery
+        <h3 class="text-xl sm:text-2xl font-semibold font-outfit text-brand-blueDark">
+          Your Car Ready For Ride
         </h3>
 
         <p class="text-xs sm:text-sm text-slate-600 font-normal leading-relaxed">
-          replacement is done if needed, or a jump-start to your car. Pay securely and drive away with a 1 year free roadside assistance in Ahmedabad.
+          Replacement is done if needed, or a jump-start to your car. Pay securely and drive away with a 1 year free roadside assistance in Ahmedabad.
         </p>
       </div>
 

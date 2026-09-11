@@ -21,7 +21,7 @@ include 'includes/header.php';
   </div>
 
   <!-- Content Container -->
-  <div class="container mx-auto px-4 max-w-7xl relative z-10">
+  <div class="container mx-auto px-3 relative z-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
       
       <!-- Right on Desktop (7 cols) / Top on Mobile: Hero Badges, Headlines & Values -->

@@ -45,10 +45,16 @@ $(document).ready(function () {
 
   // 1. Scroll Handler for Sticky Navbar & Back to Top Button
   const $mainNav = $("#main-nav-bar");
-  const navInitialTop = $mainNav.length ? $mainNav.offset().top : 120;
+  let navInitialTop = 110;
+  if ($mainNav.length) {
+    const rawOffset = $mainNav.offset().top;
+    if (rawOffset > 50) {
+      navInitialTop = rawOffset;
+    }
+  }
 
-  $(window).on("scroll", function () {
-    const scrollPos = $(this).scrollTop();
+  function handleStickyNav() {
+    const scrollPos = $(window).scrollTop();
 
     // Back to Top Button
     if (scrollPos > 300) {
@@ -65,7 +71,10 @@ $(document).ready(function () {
         $mainNav.removeClass("is-fixed");
       }
     }
-  });
+  }
+
+  $(window).on("scroll", handleStickyNav);
+  handleStickyNav();
 
   // Back to Top Button
   $("#back-to-top").on("click", function (e) {

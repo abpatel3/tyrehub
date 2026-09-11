@@ -17,7 +17,7 @@ if (!in_array($active_tab, $valid_tabs)) {
 <!-- BREADCRUMB                                 -->
 <!-- ========================================== -->
 <section class="bg-white border-b border-slate-200/80 py-3">
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-3">
     <div class="flex items-center gap-2 text-xs text-slate-500 font-normal">
       <a href="index.php" class="hover:text-brand-blue transition">Home</a>
       <i class="fa-solid fa-angle-right text-[10px] text-slate-400"></i>
@@ -30,7 +30,7 @@ if (!in_array($active_tab, $valid_tabs)) {
 <!-- MY ACCOUNT DASHBOARD SECTION               -->
 <!-- ========================================== -->
 <section class="py-10 sm:py-14 bg-slate-50/60 min-h-[75vh]">
-  <div class="container mx-auto px-4 max-w-6xl">
+  <div class="container mx-auto px-3">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
 

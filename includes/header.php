@@ -141,12 +141,6 @@
             <span>Car Battery Replacement</span>
           </a>
 
-          <!-- Alignment & Balancing -->
-          <a href="wheel-alignment-and-balancing.php" class="flex items-center gap-2 py-3.5 <?php echo get_active_nav_class('alignment', $activePage); ?> text-white hover:text-brand-yellow transition">
-            <i class="fa-solid fa-arrows-to-dot text-sm"></i>
-            <span>Alignment &amp; Balancing</span>
-          </a>
-
           <!-- Car Services with Dropdown -->
           <div class="relative group py-3.5">
             <a href="#"
@@ -161,7 +155,19 @@
               class="absolute left-0 top-full hidden group-hover:block w-72 bg-white rounded-2xl shadow-2xl border border-slate-100 py-2 z-50 animate-fadeIn overflow-hidden"
               style="overflow: hidden;">
 
-              <!-- 1. Free Car Tyre Inspection -->
+              <!-- 1. Alignment & Balancing -->
+              <a href="wheel-alignment-and-balancing.php"
+                class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
+                <div
+                  class="svc-icon w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center flex-shrink-0 transition">
+                  <i class="fa-solid fa-arrows-to-dot text-white text-base transition"></i>
+                </div>
+                <span class="svc-label text-[13px] font-semibold text-slate-800 transition whitespace-nowrap">Alignment &amp; Balancing</span>
+              </a>
+
+              <div class="mx-4 border-t border-slate-100"></div>
+
+              <!-- 2. Free Car Tyre Inspection -->
               <a href="free-tyre-inspection.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
@@ -174,7 +180,7 @@
 
               <div class="mx-4 border-t border-slate-100"></div>
 
-              <!-- 2. Car Wash -->
+              <!-- 3. Car Wash -->
               <a href="car-wash.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
@@ -187,7 +193,7 @@
 
               <div class="mx-4 border-t border-slate-100"></div>
 
-              <!-- 3. Car Flat Tyre / Jump Start -->
+              <!-- 4. Car Flat Tyre / Jump Start -->
               <a href="car-flat-tyre-jump-start.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
@@ -200,7 +206,7 @@
 
               <div class="mx-4 border-t border-slate-100"></div>
 
-              <!-- 4. Towing Services -->
+              <!-- 5. Towing Services -->
               <a href="towing-services.php"
                 class="svc-item flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition">
                 <div
@@ -232,8 +238,17 @@
           </a>
         </div>
 
-        <!-- Right Side: Cart Button -->
-        <div class="flex items-center gap-3 ml-auto">
+        <!-- Right Side: Call & Cart Buttons -->
+        <div class="flex items-center gap-2.5 ml-auto">
+          <!-- Sticky Navbar Call Icon (Visible ONLY when navbar is fixed at top) -->
+          <a href="tel:<?php echo str_replace('-', '', TOLL_FREE_NUMBER); ?>"
+            id="nav-sticky-call-btn"
+            class="relative w-9 h-9 rounded-lg bg-brand-yellow text-slate-950 hover:bg-white hover:text-brand-blue flex items-center justify-center transition-all duration-200 shadow-sm"
+            title="Call Toll Free: <?php echo TOLL_FREE_NUMBER; ?>"
+            aria-label="Call Toll Free: <?php echo TOLL_FREE_NUMBER; ?>">
+            <i class="fa-solid fa-phone-volume text-sm"></i>
+          </a>
+
           <a href="cart.php"
             class="relative w-9 h-9 rounded-lg bg-white/10 hover:bg-brand-yellow hover:text-slate-900 text-white flex items-center justify-center transition shadow-sm"
             title="View Cart">
@@ -265,8 +280,6 @@
         <div class="mt-6 flex flex-col gap-2 text-sm font-semibold text-slate-200">
           <a href="buy-tyre.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-dharmachakra text-brand-yellow w-5"></i> Buy Tyre</a>
-          <a href="wheel-alignment-and-balancing.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
-              class="fa-solid fa-arrows-to-dot text-brand-yellow w-5"></i> Alignment &amp; Balancing</a>
           <a href="car-battery-replacement.php" class="p-2.5 rounded-lg hover:bg-white/10 flex items-center gap-3"><i
               class="fa-solid fa-car-battery text-brand-yellow w-5"></i> Car Battery Replacement</a>
           <!-- Car Services Expandable Sub-Menu -->
@@ -281,6 +294,11 @@
 
             <!-- Sub-Services List (Accordion) -->
             <div id="mobile-services-sub-menu" class="hidden pl-8 pr-2 py-1 space-y-1 text-xs text-slate-300">
+              <a href="wheel-alignment-and-balancing.php"
+                class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
+                <i class="fa-solid fa-arrows-to-dot text-emerald-400 text-xs"></i>
+                <span>Alignment &amp; Balancing</span>
+              </a>
               <a href="free-tyre-inspection.php"
                 class="p-2 rounded-lg hover:bg-white/10 flex items-center gap-2.5 transition">
                 <i class="fa-solid fa-magnifying-glass text-brand-yellow text-xs"></i>

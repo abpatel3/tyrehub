@@ -19,7 +19,7 @@ include 'includes/header.php';
   </div>
 
   <!-- Content Container -->
-  <div class="container mx-auto px-4 max-w-7xl relative z-10">
+  <div class="container mx-auto px-3 relative z-10">
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
       
       <!-- Right on Desktop (7 cols) / Top on Mobile: Hero Badges, Headlines & Values -->
@@ -231,7 +231,7 @@ include 'includes/header.php';
 <!-- 2. FREE TYRE CHECKS & SERVICE DETAILS      -->
 <!-- ========================================== -->
 <section class="py-14 sm:py-18 bg-white border-b border-slate-200">
-  <div class="container mx-auto px-4 max-w-7xl">
+  <div class="container mx-auto px-3">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 
@@ -295,7 +295,7 @@ include 'includes/header.php';
 <!-- 4. "HOW IT WORKS" 3-STEP TIMELINE          -->
 <!-- ========================================== -->
 <section class="py-16 lg:py-20 bg-brand-blue text-white relative overflow-hidden">
-  <div class="container mx-auto px-4 max-w-7xl text-center relative z-10">
+  <div class="container mx-auto px-3 text-center relative z-10">
 
     <h2 class="text-3xl md:text-4xl font-medium text-white tracking-tight" data-aos="fade-up" data-aos-duration="600">
       How It <span class="text-brand-yellow font-bold">Works</span>
@@ -351,7 +351,7 @@ include 'includes/header.php';
 <!-- 5. 5-POINT TYRE SAFETY CHECKLIST           -->
 <!-- ========================================== -->
 <section class="py-14 sm:py-18 bg-slate-50 border-b border-slate-200">
-  <div class="container mx-auto px-4 max-w-7xl">
+  <div class="container mx-auto px-3">
     
     <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
       <span class="inline-block px-3 py-1 rounded-full bg-brand-blue/10 text-brand-blue font-extrabold text-xs uppercase tracking-wider mb-2">
@@ -552,7 +552,7 @@ include 'includes/header.php';
 <!-- 3. NEED TYRE / CALLOUT BANNER              -->
 <!-- ========================================== -->
 <section class="py-12 sm:py-14 bg-slate-50">
-  <div class="container mx-auto px-4 max-w-7xl">
+  <div class="container mx-auto px-3">
     
     <div class="bg-brand-blueDark text-white p-6 sm:p-8 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg border border-white/10" data-aos="fade-up" data-aos-duration="600">
       <div class="space-y-1.5 text-center md:text-left">

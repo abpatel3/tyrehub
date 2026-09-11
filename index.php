@@ -450,9 +450,9 @@ include 'includes/header.php';
                 <!-- TAB 1: BY VEHICLE -->
                 <div id="tab-vehicle" class="tab-pane">
                   <!-- Vehicle Illustration Graphic -->
-                  <div class="mb-3.5 flex justify-center">
-                    <img src="assets/image/vehicle-select-guide.webp" alt="Vehicle Guide"
-                      class="h-20 sm:h-24 object-contain filter drop-shadow-sm">
+                  <div class="mb-3.5 flex justify-center h-20 sm:h-24">
+                    <img id="vehicle-type-img" src="assets/image/4-wheeler.png" alt="Vehicle Guide"
+                      class="h-full w-auto object-contain filter drop-shadow-sm transition-all duration-200">
                   </div>
 
                   <form class="space-y-2.5" onsubmit="return false;">
@@ -749,23 +749,28 @@ include 'includes/header.php';
         Get a car battery or car jump-start on the spot
       </p>
 
-      <!-- 3-Step Emergency Process Cards (Matching Old Screenshot) -->
+      <!-- 3-Step Process Cards -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 text-left">
 
         <!-- Step 1 -->
         <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100"
           class="step-card bg-white/10 backdrop-blur-md rounded-2xl p-6 border-2 border-white/20 hover:border-brand-yellow hover:bg-white/15 transition-colors duration-200 ease-in-out cursor-pointer">
           <div class="flex items-center justify-between mb-4">
-            <span class="text-4xl font-black font-outfit text-brand-yellow">1</span>
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-brand-yellow text-slate-950 font-semibold text-xs tracking-wide shadow-sm">
+              Step - 1
+            </span>
             <div
               class="w-12 h-12 rounded-xl bg-white text-brand-blue flex items-center justify-center text-xl shadow-md">
               <i class="fa-solid fa-phone"></i>
             </div>
           </div>
-          <a href="tel:7575888916" class="text-2xl font-black text-brand-yellow font-outfit hover:underline block mb-2">
+          <h3 class="text-xl sm:text-2xl font-semibold text-white font-outfit mb-1">
+            Call Us
+          </h3>
+          <a href="tel:7575888916" class="text-lg sm:text-xl font-medium text-brand-yellow font-outfit hover:underline block mb-2">
             7575 888 916
           </a>
-          <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-medium">
+          <p class="text-slate-300 text-xs md:text-sm leading-relaxed font-normal">
             Call us toll free if your car is not starting. Share your Car make, model, and year. We'll immediately
             dispatch assistance to you.
           </p>
@@ -775,16 +780,18 @@ include 'includes/header.php';
         <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200"
           class="step-card bg-white/10 backdrop-blur-md rounded-2xl p-6 border-2 border-white/20 hover:border-brand-yellow hover:bg-white/15 transition-colors duration-200 ease-in-out cursor-pointer">
           <div class="flex items-center justify-between mb-4">
-            <span class="text-4xl font-black font-outfit text-brand-yellow">2</span>
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-brand-yellow text-slate-950 font-semibold text-xs tracking-wide shadow-sm">
+              Step - 2
+            </span>
             <div
               class="w-12 h-12 rounded-xl bg-white text-brand-blue flex items-center justify-center text-xl shadow-md">
               <i class="fa-solid fa-location-crosshairs"></i>
             </div>
           </div>
-          <h3 class="text-2xl font-black text-white font-outfit mb-2">
-            30 Minutes
+          <h3 class="text-xl sm:text-2xl font-semibold text-white font-outfit mb-2">
+            Wait 30 Min
           </h3>
-          <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-medium">
+          <p class="text-slate-300 text-xs md:text-sm leading-relaxed font-normal">
             Is what it takes our technicians to reach your location. Once there they will check your car and test your
             car battery.
           </p>
@@ -794,16 +801,18 @@ include 'includes/header.php';
         <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="300"
           class="step-card bg-white/10 backdrop-blur-md rounded-2xl p-6 border-2 border-white/20 hover:border-brand-yellow hover:bg-white/15 transition-colors duration-200 ease-in-out cursor-pointer">
           <div class="flex items-center justify-between mb-4">
-            <span class="text-4xl font-black font-outfit text-brand-yellow">3</span>
+            <span class="inline-flex items-center px-3 py-1 rounded-full bg-brand-yellow text-slate-950 font-semibold text-xs tracking-wide shadow-sm">
+              Step - 3
+            </span>
             <div
               class="w-12 h-12 rounded-xl bg-white text-brand-blue flex items-center justify-center text-xl shadow-md">
               <i class="fa-solid fa-car-battery"></i>
             </div>
           </div>
-          <h3 class="text-2xl font-black text-white font-outfit mb-2">
-            Car Battery
+          <h3 class="text-xl sm:text-2xl font-semibold text-white font-outfit mb-2">
+            Your Car Ready For Ride
           </h3>
-          <p class="text-slate-200 text-xs md:text-sm leading-relaxed font-medium">
+          <p class="text-slate-300 text-xs md:text-sm leading-relaxed font-normal">
             Replacement is done if needed, or a jump-start to your car. Pay securely and drive away with a 1 year free
             roadside assistance in Ahmedabad.
           </p>
@@ -939,7 +948,7 @@ include 'includes/header.php';
             <span
               class="absolute -top-1 -right-1 w-8 h-8 rounded-full bg-brand-yellow text-brand-blue font-black text-xs flex items-center justify-center font-outfit border-2 border-brand-blue shadow-md">01</span>
           </div>
-          <h3 class="text-base font-bold text-white mt-1">Buy Tyre Or Service</h3>
+          <h3 class="text-base font-bold text-white mt-1">Buy Tyre</h3>
           <p class="text-xs text-slate-300 mt-1 max-w-xs leading-relaxed">
             Browse wide range of car, bike tyres, and auto battery brands at lowest prices.
           </p>

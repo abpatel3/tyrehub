@@ -2,7 +2,7 @@
   "categories": {
     "4w": {
       "name": "4 Wheeler (Car / SUV)",
-      "illustration": "assets/image/vehicle-select-guide.webp",
+      "illustration": "assets/image/4-wheeler.png",
       "brands": [
         {
           "id": "maruti-suzuki",
@@ -192,7 +192,7 @@
     },
     "2w": {
       "name": "2 Wheeler (Bike / Scooter)",
-      "illustration": "assets/image/vehicle-select-guide.webp",
+      "illustration": "assets/image/2wheeler.png",
       "brands": [
         {
           "id": "hero-motocorp",
@@ -312,7 +312,7 @@
     },
     "3w": {
       "name": "3 Wheeler (Auto Rickshaw)",
-      "illustration": "assets/image/vehicle-select-guide.webp",
+      "illustration": "assets/image/3wheeler.png",
       "brands": [
         {
           "id": "bajaj-3w",

@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <!-- BREADCRUMB                                 -->
 <!-- ========================================== -->
 <section class="bg-white border-b border-slate-200/80 py-3">
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-3">
     <div class="flex items-center gap-2 text-xs text-slate-500 font-normal">
       <a href="index.php" class="hover:text-brand-blue transition">Home</a>
       <i class="fa-solid fa-angle-right text-[10px] text-slate-400"></i>
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <div class="absolute top-10 left-1/4 w-96 h-96 bg-brand-blue/5 rounded-full blur-3xl pointer-events-none -z-10"></div>
   <div class="absolute bottom-10 right-1/4 w-96 h-96 bg-brand-yellow/10 rounded-full blur-3xl pointer-events-none -z-10"></div>
 
-  <div class="container mx-auto px-4 max-w-5xl">
+  <div class="container mx-auto px-3 max-w-5xl">
     
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
 
